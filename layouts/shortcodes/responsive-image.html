@@ -1,0 +1,22 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+
+{{ $original := .Page.Resources.GetMatch $src }}
+{{ if $original }}
+  {{ $sizes := slice "320" "640" "960" "1280" }}
+  {{ $srcset := slice }}
+  {{ range $sizes }}
+    {{ $scaled := $original.Resize (print . "x") }}
+    {{ $scaledURL := $scaled.RelPermalink }}
+    {{ $scaledWidth := $scaled.Width }}
+    {{ $srcset = $srcset | append (printf "%s %dw" $scaledURL $scaledWidth) }}
+  {{ end }}
+  <img src="{{ $original.RelPermalink }}" alt="{{ $alt }}" width="{{ $original.Width }}" height="{{ $original.Height }}" srcset="{{ range $i, $src := $srcset }}{{ $src }}{{ if not (eq $i (sub (len $srcset) 1)) }}, {{ end }}{{ end }}" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy">
+{{ else }}
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+{{ end }}
+
+
+
+
+

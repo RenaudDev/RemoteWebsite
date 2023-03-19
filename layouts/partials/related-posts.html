@@ -1,0 +1,21 @@
+<!-- layouts/partials/related-posts.html -->
+<div class="related-posts">
+    <h3>Related Posts</h3>
+    <ul>
+      {{ $currentPage := . }}
+      {{ $relatedPages := .Site.RegularPages.Related . | first 3 }}
+      {{ with $relatedPages }}
+        {{ range . }}
+          {{ if ne $currentPage.Permalink .Permalink }}
+            <li class="related-color">
+              <a style="text-decoration: underline;"  href="{{ .Permalink }}">{{ .Title }}</a>
+              <p >{{ .Description }}</p>
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        <li>No related posts found.</li>
+      {{ end }}
+    </ul>
+  </div>
+  
