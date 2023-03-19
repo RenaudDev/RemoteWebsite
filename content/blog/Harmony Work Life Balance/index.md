@@ -81,7 +81,7 @@ If you notice these symptoms, it's important to take action to address the under
 
 ### Set Realistic Expectations and Prioritize Tasks
 
-One of the factors contributing to burnout is having unrealistic expectations or taking on too much work. Remote workers should be mindful of their workload and set achievable goals. Prioritize tasks using tools like the Eisenhower Matrix (see our article on [Mastering Priorities with the Eisenhower Matrix](/p/mastering-priorities-eisenhower-matrix/)) to help you manage your time effectively and focus on what's most important.
+One of the factors contributing to burnout is having unrealistic expectations or taking on too much work. Remote workers should be mindful of their workload and set achievable goals. Prioritize tasks using tools like the Eisenhower Matrix (see our article on [Mastering Priorities with the Eisenhower Matrix](/blog/mastering-priorities-eisenhower-matrix/)) to help you manage your time effectively and focus on what's most important.
 
 ### Establish a Healthy Work Routine
 
