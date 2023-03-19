@@ -28,7 +28,7 @@ Speaking from personal experience, I know firsthand the rewards of starting a re
 {{< responsive-image src="va.webp" alt="Virtual Assistant on the phone" >}}
 
 ### Startup Costs
-Starting a virtual assistant business generally requires minimal upfront costs. Depending on the services you plan to offer, you'll need a reliable computer, internet connection, and possibly specific [software or tools](/top-10-tools-for-remote-workers-and-digital-nomads). Investing in a professional website, online courses, or webinars to develop your skills may also be necessary.
+Starting a virtual assistant business generally requires minimal upfront costs. Depending on the services you plan to offer, you'll need a reliable computer, internet connection, and possibly specific [software or tools](/blog/top-10-tools-for-remote-workers-and-digital-nomads). Investing in a professional website, online courses, or webinars to develop your skills may also be necessary.
 
 ### Risks & Benefits
 **Risks:**
