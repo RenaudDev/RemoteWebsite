@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.remoteunbound.com"
 title = "RemoteUnbound"
 copyright = "Copyright © 2023"
 paginate = 7 
