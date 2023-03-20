@@ -1,11 +1,9 @@
 <header id="site-header" {{ if (not .IsHome) }}class="l-compact"{{ end }}>
-  <nav class="l-container_site">
+  <nav class="l-container_site" style="display: flex; justify-items: center; align-items: center;">
     <div class="branding">
-        <h1 class="branding-title">
-          <a href="/" accesskey="h" title="Home (Alt + H)">{{ .Site.Title }}</a>
-        </h1>
-        {{- /* TODO: Add Logo */}}
-      <p class="branding-tagline">{{ .Site.Params.tagline }}</p>
+          <a href="/" accesskey="h" title="Home (Alt + H)">
+          <img src="{{ .Site.BaseURL}}logo.png" alt="Remote Unbound" width="100px" height="100px" style="border-radius:100%; box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);" >
+        </a>
     </div>
     <label class="toggle" accesskey="t" title="Change Theme (Alt + T)">
       <input id="theme-toggle" type="checkbox"></input>
@@ -19,12 +17,27 @@
       <ul class="menu">
         {{- $currentURL := .RelPermalink }}
         {{- range .Site.Menus.main }}
-        {{- $active := and (eq $currentURL .URL) }}
-        <li class="menu-item">
-          <a href="{{ .URL }}"{{ if $active }} class="active{{ if $.IsHome}}-mobile{{ end }}"{{ end }}>{{ .Name }}</a>
-        </li>
+          {{- $active := and (eq $currentURL .URL) }}
+          {{- if .HasChildren }}
+            <li class="menu-item dropdown">
+              <a href="{{ .URL }}"{{ if $active }} class="active{{ if $.IsHome }}-mobile{{ end }}"{{ end }}>{{ .Name }}</a>
+              <ul class="submenu">
+                {{- range .Children }}
+                  {{- $childActive := and (eq $currentURL .URL) }}
+                  <li class="submenu-item">
+                    <a href="{{ .URL }}"{{ if $childActive }} class="active{{ if $.IsHome }}-mobile{{ end }}"{{ end }}>{{ .Name }}</a>
+                  </li>
+                {{- end }}
+              </ul>
+            </li>
+          {{- else if not .Parent }}
+            <li class="menu-item">
+              <a href="{{ .URL }}"{{ if $active }} class="active{{ if $.IsHome }}-mobile{{ end }}"{{ end }}>{{ .Name }}</a>
+            </li>
+          {{- end }}
         {{- end }}
       </ul>
+      
     </div>
   </nav>
   {{ if .IsPage }}<progress id="reading-progress" max="100" value="0" ></progress>{{ end }}

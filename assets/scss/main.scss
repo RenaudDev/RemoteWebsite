@@ -127,3 +127,42 @@ article li a {
     color: var(--color-accent);
 }
 }
+/* Dropdown Menu Styles */
+.menu-item.dropdown {
+  position: relative;
+}
+
+.menu-item.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  min-width: 310px;
+  background-color: var(--background-color-card);
+  border-radius: var(--border-radius-large);
+  box-shadow: 3px 3px var(--color);
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+  z-index: 1;
+}
+
+.submenu-item {
+  margin-bottom: 0.5rem;
+}
+
+.submenu-item a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block;
+}
+
+.submenu-item a:hover {
+  color: var(--color-primary);
+  text-decoration: none !important;
+}

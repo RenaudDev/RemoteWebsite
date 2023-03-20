@@ -265,7 +265,7 @@ a {
   transition: background-size $transition-base,
               color $transition-base;
   &:hover, &:focus {
-    background-size: 0 1px, 0 1px, 100% 1px;
+    background-size: 0 2px, 0 1px, 100% 2px;
     color: var(--color-accent);
   }
 }
