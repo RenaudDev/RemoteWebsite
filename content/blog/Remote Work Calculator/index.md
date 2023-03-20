@@ -6,6 +6,7 @@ authors:
 date: 2023-03-20
 lastmod: 2023-03-20
 feature: "calculator.webp"
+series: Tools
 draft: false
 categories: ["Remote Work"]
 tags: 
