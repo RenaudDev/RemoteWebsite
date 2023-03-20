@@ -1,5 +1,5 @@
 +++
-title = "Business Guide"
+title = "Business Guides"
 textColor = "var(--color-accent-contrast)"
 backgroundColor = "var(--color-accent)"
 +++

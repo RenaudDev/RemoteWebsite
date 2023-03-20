@@ -57,7 +57,7 @@ Before starting as a virtual assistant, be prepared for a learning curve as you 
 2. [Belay](https://belaysolutions.com/): A virtual staffing solutions company that offers resources, training, and potential job opportunities for virtual assistants.
 3. [Time Etc](https://web.timeetc.com/): A virtual assistant platform that connects VAs with clients and provides resources for skill development.
 4. [Udemy](https://www.udemy.com/): An online learning platform offering various courses to help you develop skills relevant to virtual assistance.
-
+5. [The Complete Guide To Start And Grow A Virtual Assistant Business](/blog/start-virtual-assistant-business-guide/)
 ## Dropshipping
 {{< responsive-image src="dropshipping.webp" alt="Box with label" >}}
 
@@ -93,6 +93,7 @@ Before diving into dropshipping, it's essential to understand that success requi
 2. [Oberlo](https://www.oberlo.com): A Shopify app that simplifies the process of finding and adding products to your store.
 3. [Spocket](https://www.spocket.co): A dropshipping marketplace that connects retailers with suppliers, focusing on fast shipping and high-quality products.
 4. [SaleHoo](https://www.salehoo.com): A wholesale and dropshipping directory with over 8,000 verified suppliers.
+5. [The Complete Guide To Start And Grow A Dropshipping Business](/blog/start-dropshipping-business-guide/)
 
 ## Affiliate Marketing
 {{< responsive-image src="affiliate.webp" alt="Computer with analytics dashboard" >}}
@@ -168,6 +169,8 @@ Be prepared to invest time in marketing your services, building a professional o
 3. [VIPKid](https://www.vipkid.com/)
 4. [Wyzant](https://www.wyzant.com/)
 5. [Chegg Tutors](https://www.chegg.com/tutors/)
+6. [The Complete Guide To Start And Grow An Online Tutoring Business](/blog/start-online-tutoring-business-guide/)
+
 
 ## Print-On-Demand Store
 {{< responsive-image src="print.webp" alt="Women wearing a printed t-shirt" >}}
@@ -203,6 +206,7 @@ Be prepared to invest time in marketing your products, researching your target a
 1. [Printful](https://www.printful.com/)
 2. [Printify](https://printify.com/)
 3. [Gooten](https://www.gooten.com/)
+4. [The Complete Guide To Start And Grow A Print-On-Demand Store](/blog/start-print-on-demand-store-guide/)
 
 By following these tips and leveraging available resources, you can create a successful print-on-demand store that allows you to work remotely and explore your creative passions, whether as a traditional artist or an AI-driven creator.
 

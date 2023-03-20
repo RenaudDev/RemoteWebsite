@@ -2,7 +2,7 @@
 title: How to Start a Dropshipping Business Step By Step
 description: Discover the steps to launch your own successful dropshipping business, from planning and setup to managing and scaling your services.
 slug: start-dropshipping-business-guide
-series: Business Guide
+series: Business Guides
 authors:
   - Renaud Gagne
 date: 2023-03-19
