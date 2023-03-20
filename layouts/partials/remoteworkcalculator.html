@@ -1,0 +1,68 @@
+<div class="card">
+    <!-- Transportation costs -->
+    <div class="input-group">
+        <label for="distance">Distance to work (km):</label>
+        <input type="number" id="distance" min="0">
+    </div>
+    <div class="input-group">
+        <label for="time">Time spent commuting per days (min):</label>
+        <input type="number" id="time" min="0">
+    </div>
+    <div class="input-group">
+        <label for="gasPrice">Gas price per liter ($):</label>
+        <input type="number" id="gasPrice" min="0" step="0.01">
+    </div>
+    <div class="input-group">
+        <label for="commuteDays">Commute days per week:</label>
+        <input type="number" id="commuteDays" min="0" max="7">
+    </div>
+    <!-- Meal costs -->
+    <div class="input-group">
+        <label for="meals">Meals at restaurants per week:</label>
+        <input type="number" id="meals" min="0">
+    </div>
+    <div class="input-group">
+        <label for="mealPrice">Average meal price ($):</label>
+        <input type="number" id="mealPrice" min="0" step="0.01">
+    </div>
+    <button onclick="calculateSavings()">Calculate Savings</button>
+    <div id="results"></div>
+</div>
+<script>
+    function calculateSavings() {
+        // Inputs
+        const distance = parseFloat(document.getElementById('distance').value);
+        const time = parseFloat(document.getElementById('time').value);
+        const gasPrice = parseFloat(document.getElementById('gasPrice').value);
+        const commuteDays = parseFloat(document.getElementById('commuteDays').value);
+        const meals = parseFloat(document.getElementById('meals').value);
+        const mealPrice = parseFloat(document.getElementById('mealPrice').value);
+
+        // Constants
+        const weeksInYear = 52;
+        const workDaysInYear = commuteDays * weeksInYear;
+        const carFuelEfficiency = 12; // km/l
+
+        // Calculations
+        const yearlyCommute = distance * 2 * workDaysInYear;
+        const yearlyFuelConsumption = yearlyCommute / carFuelEfficiency;
+        const yearlyGasCost = yearlyFuelConsumption * gasPrice;
+
+        const yearlyMealCost = meals * mealPrice * weeksInYear;
+
+        const totalTimeInTraffic = (time * workDaysInYear) / 60; // hours
+        const savedDays = totalTimeInTraffic / 24; // days
+
+        const totalSavings = yearlyGasCost + yearlyMealCost;
+
+        // Display results
+        document.getElementById('results').innerHTML = `
+    <h2>Yearly Savings</h2>
+    <p>Transportation: $${yearlyGasCost.toFixed(2)}</p>
+    <p>Meals: $${yearlyMealCost.toFixed(2)}</p>
+    <p><strong>Total Savings: $${totalSavings.toFixed(2)}</strong></p>
+    <h2>Time Saved</h2>
+    <p>${savedDays.toFixed(1)} days per year</p>
+`;
+    }
+</script>
