@@ -34,6 +34,12 @@ enableEmoji = true
   weight = 15
 
 [[menu.main]]
+  identifier = "series"
+  name = "Series"
+  url = "/series/"
+  weight = 15
+
+[[menu.main]]
   identifier = "categories"
   name = "Categories ▼ "
   url = "/categories/"
