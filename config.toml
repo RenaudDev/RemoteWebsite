@@ -87,6 +87,17 @@ enableEmoji = true
     url = "/categories/work-life-balance/"
     weight = 7
 
+[[menu.main]]
+  identifier = "tools"
+  name = "Tools ▼ "
+  url = "/tools/"
+  weight = 28
+
+  [[menu.main]]
+    parent = "tools"
+    name = "Remote Work Savings Calculator"
+    url = "/tools/calculator/"
+    weight = 1
 
 [[menu.main]]
   identifier = "contact"
