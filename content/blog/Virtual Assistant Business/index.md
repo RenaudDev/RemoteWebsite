@@ -2,6 +2,7 @@
 title: How to Start a Virtual Assistant Business Step By Step
 description: Discover the steps to launch your own successful virtual assistant business, from planning and setup to managing and scaling your services.
 slug: start-virtual-assistant-business-guide
+series: Business Guide
 authors:
   - Renaud Gagne
 date: 2023-03-19
@@ -12,7 +13,7 @@ categories:
 tags:  
 - Virtual Assistant
 ---
-# Introduction
+## Introduction
 
 The demand for virtual assistants (VAs) has grown exponentially in recent years, as more businesses and entrepreneurs seek remote support for various tasks. When we researched the [top 7 remote businesses to launch this year](/blog/7-remote-business-ideas-to-start-in-2023), virtual assistant made it to the list. If you're considering embarking on this exciting and potentially lucrative journey, you're in the right place. This comprehensive guide will walk you through the steps to plan, launch, and manage your VA business, ensuring that you have the right foundation for long-term success. So, let's dive in and explore the world of virtual assistance!
 

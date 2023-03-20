@@ -108,11 +108,22 @@ a {
 }
 
 .related-posts li a:hover {
-  color: var(--accent-color);
+  color: var(--color-accent);
 }
 
 .related-posts li p {
   margin: 0.5rem 0 0;
   font-size: 0.9rem;
   color: var(--color);
+}
+.toc-list-item {
+  font-size: 15px !important;
+  padding: 5px;
+}
+article li a {
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--color-accent);
+}
 }
