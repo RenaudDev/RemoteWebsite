@@ -165,6 +165,7 @@ article li a {
   color: var(--color-primary);
   text-decoration: none !important;
 }
+/* Calculator Styles */
 .calculator {
   position: relative;
   top: 100%;
@@ -181,4 +182,42 @@ article li a {
 
 .input-group {
   margin-bottom: 10px;
+}
+.card figure img {
+  margin: 0.75rem 0 !important;
+}
+/* Mobile Optimization */
+@media only screen and (max-width: 480px)  {
+  .card-meta {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-meta .taxonomy-item {
+    padding: 0 0 !important;
+  }
+  .card-title {
+    font-size: 1.75rem;
+  }
+  article h1, h2, h3, h4 {
+    margin: 1rem 0 1rem;
+  }
+  article ol {
+    padding-inline-start: 20px;
+  }
+  #site-main {
+    grid-template-columns: minmax(0.45rem,1fr)minmax(auto,70ch)minmax(0.45rem,1fr);
+  }
+  .card-banner {
+    margin-left: 0;
+    height:50px;
+  }
+  article h2 {
+    font-size: 1.5rem;
+  }
+  article h3 {
+    font-size: 1.2rem;
+  }
+  html {
+    font-size: 1rem;
+}
 }
