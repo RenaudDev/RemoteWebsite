@@ -35,7 +35,7 @@ To begin, you need to conduct market research to identify popular trends and pot
 - Popular hobbies or interests
 - Niche communities or groups
 
-Use tools like [Google Trends](https://trends.google.com/) to validate your ideas by checking the search volume and interest in your chosen niche over time.
+Use tools like [Google Trends](https://trends.google.com/) to validate your ideas by checking the search volume and interest in your chosen niche over time. Wonder how to use Google Trends and Google Keyword Planner? Read our article on [how to find your niche using Google Trends & Google Keyword Planner](/blog/find-your-niche-google-trends).
 
 ### 2. Choosing Your Products
 

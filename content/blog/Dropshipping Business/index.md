@@ -33,6 +33,8 @@ Once you have a general idea of the niche you want to target, it's time to do so
 - [Amazon Best Sellers](https://www.amazon.com/Best-Sellers/zgbs) can give you an idea of the top-selling products in various categories on the largest e-commerce platform.
 - [eBay Market Research](https://www.ebay.com/marketresearch) provides insights into top-selling products and categories on eBay.
 
+Wonder how to use Google Trends and Google Keyword Planner to find your niche? Read our article on [how to find your niche using Google Trends & Google Keyword Planner](/blog/find-your-niche-google-trends).
+
 ### 3. Validate Your Product Ideas
 Once you have identified potential products to sell, it's important to validate your ideas to ensure there is sufficient demand and low competition. Use tools like [Jungle Scout](https://www.junglescout.com/) or [Helium 10](https://www.helium10.com/) to analyze sales data and competition on Amazon. This will help you decide if a product is worth pursuing.
 

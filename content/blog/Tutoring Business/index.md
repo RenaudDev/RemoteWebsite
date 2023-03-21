@@ -29,6 +29,8 @@ Start by taking inventory of your own skills, expertise, and interests. Consider
 
 Next, research the market to identify areas with high demand for tutoring services. Look for trends in education, gaps in the market, or subjects that are consistently in demand. Resources like [Google Trends](https://trends.google.com/trends/) and [Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) can help you gather data on popular subjects and target markets.
 
+Wonder how to use Google Trends and Google Keyword Planner to find your niche? Read our article on [how to find your niche using Google Trends & Google Keyword Planner](/blog/find-your-niche-google-trends).
+
 ### 3. Choose Your Niche
 
 After identifying your skills and researching the market, choose a niche or set of subjects that align with your interests and expertise. Focusing on a specific niche allows you to tailor your services to a particular audience, making it easier to market your tutoring business and establish yourself as an expert in the field.

@@ -32,6 +32,10 @@ Some common virtual assistant services include:
 - Customer support
 - Research and data entry
 
+Resources like [Google Trends](https://trends.google.com/trends/) and [Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) can help you gather data on popular subjects and target markets.
+
+Wonder how to use Google Trends and Google Keyword Planner to find your niche? Read our article on [how to find your niche using Google Trends & Google Keyword Planner](/blog/find-your-niche-google-trends).
+
 Remember, the more specialized your services, the easier it will be to market your skills and attract your ideal clients. It's also crucial to stay up-to-date with industry trends and continuously improve your skills to ensure you remain a valuable asset to your clients.
 
 ## Developing Your Skills and Expertise
