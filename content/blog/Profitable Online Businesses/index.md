@@ -1,6 +1,6 @@
 ---
-title: 'Most Profitable Online Businesses for Remote Success'
-description: Discover the top online business models with high profit margins and learn how to achieve financial stability and independence as a remote worker.
+title: 'Profitable Online Businesses By Profit Margin'
+description: Discover the most profitable online business models by profit margins and learn how to achieve financial stability and independence as a remote worker.
 slug: most-profitable-online-businesses
 authors:
   - Renaud Gagne
