@@ -1,21 +1,27 @@
 <!-- layouts/partials/related-posts.html -->
 <div class="related-posts">
-    <h3>Related Posts</h3>
-    <ul>
+  <h3>Related Posts</h3>
+  <ul>
       {{ $currentPage := . }}
-      {{ $relatedPages := .Site.RegularPages.Related . | first 3 }}
-      {{ with $relatedPages }}
-        {{ range . }}
-          {{ if ne $currentPage.Permalink .Permalink }}
-            <li class="related-color">
-              <a style="text-decoration: underline;"  href="{{ .Permalink }}">{{ .Title }}</a>
-              <p >{{ .Description }}</p>
-            </li>
+      {{ $currentTags := .Params.tags }}
+      {{ $currentCategories := .Params.categories }}
+      {{ $allPages := .Site.RegularPages }}
+      {{ $relatedPages := where $allPages "Params.tags" "intersect" $currentTags | union (where $allPages "Params.categories" "intersect" $currentCategories) | first 3 }}
+
+      {{ if $relatedPages }}
+          {{ range $relatedPages }}
+              {{ if ne $currentPage.Permalink .Permalink }}
+                  <li class="related-color">
+                      <a style="text-decoration: underline;" href="{{ .Permalink }}">{{ .Title }}</a>
+                      <p>{{ .Description }}</p>
+                  </li>
+              {{ end }}
           {{ end }}
-        {{ end }}
       {{ else }}
-        <li>No related posts found.</li>
+          <li>No related posts found.</li>
       {{ end }}
-    </ul>
-  </div>
+  </ul>
+</div>
+
+
   
