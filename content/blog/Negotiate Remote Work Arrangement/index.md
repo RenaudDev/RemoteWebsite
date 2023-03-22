@@ -18,6 +18,8 @@ Do you dream of working from your cozy home office or sipping a latte at a hip l
 
 In this article, we're here to help you navigate the sometimes treacherous waters of negotiating remote work arrangements with your employer. You might be worried about your boss's reaction or if bringing up remote work could jeopardize your job stability. Fear not, fellow freedom lovers! We've got your back with a step-by-step guide that will not only address your concerns but also help you build a solid case that'll have your boss saying "yes" before you know it.
 
+Before you start, would you like to know how much you would save by working remotely? Make sure to stop by and use our [Remote Work Savings Calculator](/tools/calculator/)
+
 So, buckle up and get ready to unlock the remote work lifestyle you've always dreamed of, without ruffling any feathers in the process!
 
 ## Understand Your Company's Remote Work Policies
