@@ -125,7 +125,7 @@ On the other hand, if you're not comfortable with constant learning, adapting to
 In the end, web design and development offers a world of opportunity for those who are willing to embrace change, harness their creativity, and embark on a journey of digital innovation.
 
 ## Online Consulting and Coaching
-{{< responsive-image src="teaching.webp" alt="Online Consulting and Coaching" >}}
+{{< responsive-image src="teacher.webp" alt="Online Consulting and Coaching" >}}
 Dare to share your wisdom? Online consulting and coaching might be your calling. This avenue caters to those who possess a wealth of knowledge and expertise in a specific field or industry. With profit margins potentially reaching 60-80%, the barriers to entry are low, and the potential for financial growth is immense.
 
 ### Who is it for?
