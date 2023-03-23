@@ -8,7 +8,7 @@ lastmod: 2023-03-15
 feature: "dave-weatherall-cjbYUTw3vxQ-unsplash.webp"
 draft: false
 categories: ["Remote Work"]
-tags: ["chatgpt", "ai", "communication", "collaboration", "efficiency"]
+tags: ["ChatGPT", "AI", "Communication", "Collaboration", "Efficiency"]
 ---
 
 ## Introduction
