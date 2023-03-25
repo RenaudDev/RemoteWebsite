@@ -1,5 +1,5 @@
 ---
-title: "Remote Work Salary Calculator"
+title: "Remote Work Saving Calculator"
 date: 2023-03-16
 slug: "savings-calculator"
 layout: tool

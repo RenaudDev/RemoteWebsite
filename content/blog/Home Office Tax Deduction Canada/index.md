@@ -36,6 +36,7 @@ Your home office must also serve as your principal place of business. This means
 If your employer offers a designated office space, you may not be eligible for the home office tax deduction. Typically, the Canada Revenue Agency (CRA) will disallow the deduction if your employer provides a suitable workspace and you choose to work remotely for personal reasons.
 
 ## Deduction Calculation Methods for Remote Employees in Canada
+{{< responsive-image src="calculation.webp" alt="Calculator on a desk" >}}
 
 ### 1. Simplified Method
 
