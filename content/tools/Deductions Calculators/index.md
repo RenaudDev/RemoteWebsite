@@ -5,7 +5,7 @@ slug: "home-office-deduction-calculators"
 layout: tool
 date: 2023-03-24
 lastmod: 2023-03-24
-feature: "calculator.webp"
+feature: "calculations.webp"
 ---
 
 For more details on Home Office Tax Deductions, make sure to refer to our guide depending on your country:
