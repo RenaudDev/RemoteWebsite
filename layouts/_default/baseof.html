@@ -95,14 +95,17 @@
   {{ block "header" . }}
     {{ partial "site/header.html" . }}
   {{ end }}
-
-  <main id="site-main" role="main">
-
-    {{ block "main" . }}{{ end }}
-    {{ block "aside-left" . }}{{ end }}
-    {{ block "aside-right" . }}{{ end }}
-    {{ block "pagination" . }}{{ end }}
-  </main>
+  
+  {{ if eq .Params.layout "tool" }}
+    {{ partial "tool.html" . }}
+  {{ else }}
+    <main id="site-main" role="main">
+      {{ block "main" . }}{{ end }}
+      {{ block "aside-left" . }}{{ end }}
+      {{ block "aside-right" . }}{{ end }}
+      {{ block "pagination" . }}{{ end }}
+    </main>
+  {{ end }}
 
   {{ block "footer" . }}{{ partialCached "site/footer.html" . }}{{ end }}
 

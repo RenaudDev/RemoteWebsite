@@ -1,0 +1,39 @@
+<!-- Actual Expense Method Deduction Calculator -->
+<div class="calculator" style="z-index: 0;">
+    <div class="input-group">
+        <label for="officeSqFt">Square Feet of Home Office:</label>
+        <input type="number" id="officeSqFt" min="0">
+    </div>
+    <div class="input-group">
+        <label for="totalSqFt">Total Square Feet of Home:</label>
+        <input type="number" id="totalSqFt" min="1">
+    </div>
+    <div class="input-group">
+        <label for="expenses">Total Expenses (e.g., rent, utilities, office supplies):</label>
+        <input type="number" id="expenses" min="0">
+    </div>
+    <button class="button" onclick="calculateActualExpenseDeduction()">Calculate Deduction</button>
+    <p id="actualExpenseResult"></p>
+</div>
+
+<script>
+    function calculateActualExpenseDeduction() {
+        const officeSqFtInput = document.getElementById('officeSqFt');
+        const totalSqFtInput = document.getElementById('totalSqFt');
+        const expensesInput = document.getElementById('expenses');
+        const resultElement = document.getElementById('actualExpenseResult');
+
+        const officeSqFt = parseFloat(officeSqFtInput.value);
+        const totalSqFt = parseFloat(totalSqFtInput.value);
+        const expenses = parseFloat(expensesInput.value);
+
+        if (isNaN(officeSqFt) || officeSqFt < 0 || isNaN(totalSqFt) || totalSqFt <= 0 || isNaN(expenses) || expenses < 0) {
+            resultElement.textContent = 'Invalid input. Please enter valid values.';
+            return;
+        }
+
+        const percentage = officeSqFt / totalSqFt;
+        const deduction = percentage * expenses;
+        resultElement.textContent = `Your home office tax deduction using the actual expense method is: $${deduction.toFixed(2)}.`;
+    }
+</script>

@@ -1,8 +1,8 @@
 ---
-title: "Remote Work Savings Calculator"
+title: "Remote Work Salary Calculator"
 date: 2023-03-16
-slug: "calculator"
-layout: page
+slug: "savings-calculator"
+layout: tool
 date: 2023-03-20
 lastmod: 2023-03-20
 feature: "calculator.webp"

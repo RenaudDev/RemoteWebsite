@@ -95,9 +95,22 @@ enableEmoji = true
 
   [[menu.main]]
     parent = "tools"
-    name = "Remote Work Savings Calculator"
-    url = "/tools/calculator/"
+    name = "Savings Calculator"
+    url = "/tools/savings-calculator/"
     weight = 1
+
+  [[menu.main]]
+    parent = "tools"
+    name = "Salary Calculator"
+    url = "/tools/salary-calculator/"
+    weight = 2
+
+  [[menu.main]]
+    parent = "tools"
+    name = "Deduction Calculator"
+    url = "/tools/home-office-deduction-calculators/"
+    weight = 2
+
 
 [[menu.main]]
   identifier = "contact"
