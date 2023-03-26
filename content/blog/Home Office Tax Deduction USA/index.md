@@ -33,7 +33,7 @@ The home office should be the principal place of business as stated by the [IRS]
 If your employer offers a designated office space, you may not be eligible for the home office tax deduction. The IRS typically disallows the deduction if your employer provides a suitable workspace, even if you choose to work remotely.
 
 ## Deduction Calculation Methods
-{{< responsive-image src="calculation.webp" alt="Calculator on a desk" >}}
+{{< responsive-image src="calculations.webp" alt="Calculator on a desk" >}}
 ### Simplified Method
 
 The simplified method allows you to claim a deduction of $5 per square foot of your home office, up to a maximum of 300 square feet. This method is easy to use, but it may result in a lower deduction than the actual expense method.
