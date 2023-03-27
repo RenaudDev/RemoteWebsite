@@ -12,6 +12,7 @@ categories:
 tags:
 - AI
 - Future Of Work
+- Work From Home
 ---
 ## Are You Ready To Face The Future?
 

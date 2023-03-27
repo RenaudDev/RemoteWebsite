@@ -13,6 +13,7 @@ tags:
 - Guide
 - Negotiation
 - Communication
+- Work From Home
 ---
 ## Ready To Go Remote?
 Do you dream of working from your cozy home office or sipping a latte at a hip local cafe while you tackle your daily tasks? Well, you're not alone. The remote work revolution is upon us, but let's face it - convincing your boss to let you join the remote work club could feel like trying to win a debate with a stubborn toddler.

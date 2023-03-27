@@ -11,6 +11,7 @@ categories:
 - Remote Work
 tags:
 - Remote Work Taxes
+- Work From Home
 ---
 ## The Rise of Remote Work and Its Impact on Taxation
 
