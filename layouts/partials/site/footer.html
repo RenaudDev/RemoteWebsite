@@ -1,7 +1,7 @@
 <footer id="site-footer">
   {{- /* Please don't remove this attribution as a "Thank You" to the theme maintainers. */}}
   <p>{{ .Site.Copyright }} | Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/pacollins/calligraphy">Calligraphy</a></p>
-  <p><a href="{{ .Site.BaseURL}}legal/privacy-policy">Privacy Policy</a> | <a href="{{ .Site.BaseURL}}legal/terms-conditions">Terms And Conditions</a></p>
+  <p><a href="{{ .Site.BaseURL}}/legal/privacy-policy">Privacy Policy</a> | <a href="{{ .Site.BaseURL}}/legal/terms-conditions">Terms And Conditions</a></p>
 </footer>
 
 {{- $main := resources.Match "js/main/*.js" | resources.Concat "js/main.js" }}
