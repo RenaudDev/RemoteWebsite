@@ -107,7 +107,9 @@ Regularly review your pricing structure to ensure it remains competitive and ref
 ## Finding and Securing Clients
 {{< responsive-image src="sales.webp" alt="Someone making a sale online" >}}
 
-Attracting clients is crucial for the success of your virtual assistant business. Here are some strategies to help you find and secure clients:
+Attracting clients is crucial for the success of your virtual assistant business. We've written a helpful guide for business owners who are looking to hire a virtual assistant and how to go about it. Make sure to read it for more insight [how people improve their businesses with a virtual assistant](/blog/improve-your-business-with-virtual-assistant-services/).
+
+Here are some strategies to help you find and secure clients:
 
 ### 1. Create a professional website
 Having an informative and visually appealing website is essential for showcasing your services and establishing credibility. Make sure your website includes a description of your services, a portfolio of your work, client testimonials, and contact information.
