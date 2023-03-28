@@ -18,7 +18,7 @@ tags:
 ## Mental Health and Remote Work
 Remote work has revolutionized the way we work, offering unprecedented flexibility and freedom. However, this new work environment also presents unique challenges, particularly concerning mental health. As more people transition to remote work, it is crucial to prioritize mental well-being and find ways to maintain balance and productivity.
 
-This article will discuss ten tips for maintaining mental health while working remotely, including creating a dedicated workspace, practicing mindfulness, and setting realistic goals. Whether you are a seasoned remote worker or just starting out, these tips will help you stay grounded, focused, and healthy in today's ever-changing work landscape. Let's begin by exploring these strategies for finding balance and well-being in the world of remote work.
+This article will discuss seven tips for maintaining mental health while working remotely, including creating a dedicated workspace, practicing mindfulness, and setting realistic goals. Whether you are a seasoned remote worker or just starting out, these tips will help you stay grounded, focused, and healthy in today's ever-changing work landscape. Let's begin by exploring these strategies for finding balance and well-being in the world of remote work.
 
 ## Tip 1: Create a dedicated workspace
 {{< responsive-image src="ergonomic.webp" alt="Dedicated workspace" >}}
