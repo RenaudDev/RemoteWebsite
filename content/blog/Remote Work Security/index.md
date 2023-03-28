@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Working From Home Security Best Practices in 2023'
+title: 'Top 10 Remote Work Security Best Practices in 2023'
 description: Boost your remote work safety with these 10 essential working from home security best practices, ensuring data protection and peace of mind.
 slug: remote-work-security-best-practices
 authors:
