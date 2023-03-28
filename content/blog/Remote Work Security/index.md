@@ -15,27 +15,26 @@ tags:
 ---
 ## What If You Were Hacked?
 
-Are you working from home right now? If so, you're not alone. The pandemic has changed the way we work, and for many of us, that means working remotely. And while remote work has its benefits, like flexibility and no commuting, it also comes with its own set of challenges. One of the biggest challenges is ensuring the security of your work data.
+Are you working from home right now? If so, you're not alone. The pandemic has changed the way we work, and for many of us, that means working remotely. And while remote work has its benefits, like flexibility and no commuting, it also comes with its own set of challenges. One of the biggest challenges is **ensuring the security of your work data**.
 
 With so many of us now working from home, cybercriminals are taking advantage of this shift by targeting remote workers with phishing emails, malware, and other attacks. That's why it's more important than ever to prioritize remote work security.
 
-In this article, we'll share the top 10 remote work security best practices that you need to know in 2023. By following these best practices, you can protect your sensitive data and have peace of mind while working from home. So, grab a cup of coffee, and let's get started!
+In this article, we'll share the top 10 remote work security best practices that you need to know. By following these best practices, you can protect your sensitive data and have peace of mind while working from home. So, grab a cup of coffee, and let's get started!
 
 ## Secure your Wi-Fi network
 {{< responsive-image src="wifi.webp" alt="Wifi Router" >}}
 
-In today's hyper-connected world, remote work has become a norm for many individuals and businesses alike. However, with the convenience of remote work, comes the added responsibility of securing your work devices and data. One of the key areas that require attention is your Wi-Fi network.
+One of the key areas that require attention is your Wi-Fi network.
 
 Your Wi-Fi network is a gateway to your work devices and data. Therefore, it's essential to secure it from potential threats. Here are three best practices to secure your Wi-Fi network:
 
 ### Password-protect your Wi-Fi
-Setting up a strong password is the first step towards securing your Wi-Fi network. Avoid using default passwords or common phrases that are easy to guess. Instead, use a unique combination of uppercase and lowercase letters, numbers, and special characters. Don't share your password with anyone unless it's necessary.
+Setting up a strong password is the first step towards securing your Wi-Fi network. Avoid using default passwords or common phrases that are easy to guess. Instead, use a unique combination of uppercase and lowercase letters, numbers, and special characters. Don't share your password with anyone unless it's necessary. Check out this article on how to [change your wifi password](https://www.businessinsider.com/guides/tech/how-to-change-wifi-password).
 
 ### Update your router firmware
 Router manufacturers release firmware updates regularly to address security vulnerabilities and improve performance. It's essential to update your router firmware to the latest version to ensure optimal security.
 
 ### Use a VPN
-{{< responsive-image src="vpn.webp" alt="Protect your network with a VPN" >}}
 
 A virtual private network (VPN) provides an added layer of security by encrypting your internet connection. It masks your IP address and makes it difficult for hackers to track your online activities. Use a reliable VPN service when working remotely to ensure your data is safe.
 
@@ -49,15 +48,21 @@ Here are some popular VPN services:
 ## Use strong passwords and a password manager
 {{< responsive-image src="password.webp" alt="Password protected computer" >}}
 
-In today's digital age, it's more important than ever to have strong passwords and a reliable password manager to keep your online presence secure. We've all been there - using the same password for multiple accounts, or even worse, using a password that's easy to guess. But by using strong, unique passwords and a password manager, you can ensure that your online accounts are safe from prying eyes.
+It's more important than ever to have strong passwords and a reliable password manager to keep your online presence secure. We've all been there - using the same password for multiple accounts, or even worse, using a password that's easy to guess. But by using strong, unique passwords and a password manager, you can ensure that your online accounts are safe from prying eyes. Did you know? [A recent study](https://www.enzoic.com/blog/8-stats-on-password-reuse/) found that 73% of users duplicate their passwords in both their personal and work accounts.
 
 First and foremost, it's important to understand the importance of using unique passwords for each of your online accounts. If you use the same password for multiple accounts and that password is compromised, then all of your accounts are at risk. That's why using a password manager is a great solution. A password manager allows you to create complex, unique passwords for each of your accounts and stores them in a secure vault.
 
-Now, you might be thinking, "But I heard that password managers aren't safe either!" While there have been instances of password managers being compromised, the risk is still much lower than using the same weak password for multiple accounts. Plus, most password managers use advanced encryption to keep your passwords safe.
+Now, you might be thinking, "But I heard that password managers aren't safe either!" While there have been instances of password managers being compromised, the risk is still much lower than using the same weak password for multiple accounts. Sometimes there has to be a trade-off for the average guy. If you are a security freak who has a notebook of unique password that you type by hand every time, fine...but that's just not an option for 99% of people. Plus, most password managers use advanced encryption to keep your passwords safe.
 
 But not all password managers are created equal. It's important to choose a reputable password manager with a track record of security, and to keep it updated with the latest security patches. Digital Trend's article [Using LastPass? You need to switch urgently, says security firm](https://www.digitaltrends.com/computing/stop-using-lastpass-says-security-firm/) highlights the importance of choosing a reliable password manager, and switching if necessary.
 
 By using strong passwords and a password manager, you can take a significant step towards securing your remote work environment. However, it's just one piece of the puzzle. In the next section, we'll cover the importance of antivirus software and how it can further protect your online presence.
+
+Here are some popular password managers:
+- [1Password](https://1password.com/)
+- [Dashlane](https://www.dashlane.com/)
+- [Keeper](https://keepersecurity.com/)
+- [Bitwarden](https://bitwarden.com/)
 
 ## Install and update antivirus software
 {{< responsive-image src="anti-virus.webp" alt="Computer infected with a virus" >}}
@@ -189,6 +194,14 @@ Cloud-based backup solutions have become increasingly popular in recent years. T
 - **Scalability:** Cloud-based backups can easily be scaled up or down depending on the needs of the business.
 - **Automatic backups:** Many cloud-based backup solutions offer automatic backups, ensuring that data is always up to date.
 - **Security:** Cloud-based backup solutions typically offer strong security features, such as encryption, to keep data safe from hackers.
+
+Here are some of the most popular cloud-based backup solutions:
+- **Google Drive:** Google Drive is a popular cloud-based storage solution that offers 15 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
+- **Dropbox:** Dropbox is another popular cloud-based storage solution that offers 2 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
+- **Box:** Box is a cloud-based storage solution that offers 10 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
+- **Microsoft OneDrive:** Microsoft OneDrive is a cloud-based storage solution that offers 5 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
+- **Amazon Drive:** Amazon Drive is a cloud-based storage solution that offers 5 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
+- **iCloud:** iCloud is a cloud-based storage solution that offers 5 GB of free storage. It also offers automatic backups, which can be scheduled to run at specific times.
 
 ### Local Backup Solutions
 While cloud-based backup solutions are becoming more popular, local backup solutions still have their place. Local backups offer a number of advantages, including:
