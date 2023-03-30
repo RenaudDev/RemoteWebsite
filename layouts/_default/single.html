@@ -2,14 +2,17 @@
 <article class="l-container_content card">
   {{ partialCached "entry/header" . .Page }}
   <section class="card-content">
+    
     {{ partialCached "function/content.html" . .Page }}
+    
   </section>
   {{- if .Params.tags }}
   	{{ $tags := sort .Params.tags }}
   	{{ $variant := printf "%x" $tags }}
   	{{ partialCached "entry/footer.html" . $variant }}
   {{- end }}
-  {{ partial "related-posts.html" . }}
+
+{{ partial "related-posts.html" . }}
 </article>
 
 {{- end }}
