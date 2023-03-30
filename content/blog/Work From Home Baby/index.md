@@ -1,7 +1,7 @@
 ---
-title: 'Remote Work Travel Tips & Tricks: Ultimate Guide'
-description: Discover the ultimate guide to top remote work travel tips & tricks for a seamless, productive, and adventurous experience.
-slug: remote-work-travel
+title: 'How to Work From Home With A Baby'
+description: Doing remote work and working from home with a baby is challenging but our article is here to help.
+slug: remote-work-baby
 authors:
   - Renaud Gagne
 date: 2023-03-30
