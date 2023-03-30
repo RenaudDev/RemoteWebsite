@@ -1,7 +1,7 @@
 ---
-title: 'How to Work From Home With A Baby'
+title: 'How To Work From Home With A Baby'
 description: Doing remote work and working from home with a baby is challenging but our article is here to help.
-slug: remote-work-baby
+slug: work-from-home-baby
 authors:
   - Renaud Gagne
 date: 2023-03-30
