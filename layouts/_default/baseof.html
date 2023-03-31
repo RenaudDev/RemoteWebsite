@@ -66,6 +66,7 @@
   {{ end }}
   {{ if strings.HasPrefix .RelPermalink "/blog/" }}
         {{- partial "schemaarticle.html" . -}}
+        <meta property="og:type" content="article" />
   {{ end }}
 </head>
 
