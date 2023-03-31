@@ -3,7 +3,7 @@
   {{- if not (in .Params.feature "http") }}
     {{- with .Resources.GetMatch .Params.feature }}
       {{- $image := . }}
-      {{- $thumbnail = ($image.Fill "1280x600").RelPermalink }}
+      {{- $thumbnail = ($image.Fill "1280x900").RelPermalink }}
     {{- else }}
       {{- $thumbnail = .Params.feature }}
     {{- end }}
