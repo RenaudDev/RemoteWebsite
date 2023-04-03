@@ -111,6 +111,11 @@ enableEmoji = true
     url = "/tools/home-office-deduction-calculators/"
     weight = 2
 
+[[menu.main]]
+  identifier = "quiz"
+  name = "Quiz"
+  url = "/tools/what-business-should-i-start/"
+  weight = 29
 
 [[menu.main]]
   identifier = "contact"

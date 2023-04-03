@@ -1,7 +1,7 @@
 <form id="quizForm">
     <div class="question">
         <div>
-            <h3>1. Which of the following best describes your primary skill set or interest?</h3>
+            <h3 style="font-size: 1.2rem">1. Which of the following best describes your primary skill set or interest?</h3>
             <label><input type="radio" name="q1" value="a" required> Writing and content creation</label>
             <label><input type="radio" name="q1" value="b"> Coding and technology</label>
             <label><input type="radio" name="q1" value="c"> Photography and visual arts</label>
@@ -10,55 +10,37 @@
             <label><input type="radio" name="q1" value="f"> Organization and administration</label>
         </div>
         <div>
-            <h3>2. How important is passive income for your online business?</h3>
-            <label><input type="radio" name="q2" value="a" required> Very important – I want to make money while I
-                sleep</label>
-            <label><input type="radio" name="q2" value="b"> Somewhat important – I'd like a mix of passive and active
-                income sources</label>
-            <label><input type="radio" name="q2" value="c"> Not important – I'm fine with earning money only when I'm
-                actively working</label>
+            <h3 style="font-size: 1.2rem">2. How important is recurring income for your online business?</h3>
+            <label><input type="radio" name="q2" value="a" required> Very important</label>
+            <label><input type="radio" name="q2" value="b"> Somewhat important</label>
+            <label><input type="radio" name="q2" value="c"> Not important</label>
         </div>
         <div>
-            <h3>3. How much time are you willing to dedicate to your online business each week?</h3>
-            <label><input type="radio" name="q3" value="a" required> 0-10 hours – I want something
-                low-maintenance</label>
-            <label><input type="radio" name="q3" value="b"> 11-20 hours – I'm willing to invest some time, but not too
-                much</label>
-            <label><input type="radio" name="q3" value="c"> 21-40 hours – I'm committed to making this a full-time
-                endeavor</label>
+            <h3 style="font-size: 1.2rem">3. How much time are you willing to dedicate to your online business each week?</h3>
+            <label><input type="radio" name="q3" value="a" required> 0-10 hours</label>
+            <label><input type="radio" name="q3" value="b"> 11-20 hours</label>
+            <label><input type="radio" name="q3" value="c"> 21-40 hours</label>
         </div>
         <div>
-            <h3>4. How important is it for you to interact with clients or customers directly in your online business?
+            <h3 style="font-size: 1.2rem">4. How important is it for you to interact with clients or customers directly in your online business?
             </h3>
-            <label><input type="radio" name="q4" value="a" required> Very important – I love working with people and
-                building
-                relationships</label>
-            <label><input type="radio" name="q4" value="b"> Somewhat important – I don't mind occasional interaction,
-                but not as the main focus</label>
-            <label><input type="radio" name="q4" value="c"> Not important – I'd rather work behind the scenes without
-                direct client/customer interaction</label>
+            <label><input type="radio" name="q4" value="a" required> Very important</label>
+            <label><input type="radio" name="q4" value="b"> Somewhat important</label>
+            <label><input type="radio" name="q4" value="c"> Not important</label>
         </div>
         <div>
-            <h3>5. How would you rate your level of expertise in your chosen skill set or interest? (from Question 1)
+            <h3 style="font-size: 1.2rem">5. How would you rate your level of expertise in your chosen skill set or interest? (from Question 1)
             </h3>
-            <label><input type="radio" name="q5" value="a" required> Beginner – I'm new to this area and need to learn
-                more
-                before starting</label>
-            <label><input type="radio" name="q5" value="b"> Intermediate – I have some experience and knowledge, but
-                there's still room to grow</label>
-            <label><input type="radio" name="q5" value="c"> Expert – I'm confident in my skills and can start right
-                away</label>
+            <label><input type="radio" name="q5" value="a" required> Beginner</label>
+            <label><input type="radio" name="q5" value="b"> Intermediate</label>
+            <label><input type="radio" name="q5" value="c"> Expert</label>
         </div>
         <div>
-            <h3>6. What is your preferred mode of content delivery for your online business?</h3>
-            <label><input type="radio" name="q6" value="a" required> Written – I prefer writing articles, blog posts, or
-                e-books</label>
-            <label><input type="radio" name="q6" value="b"> Audio/Visual – I enjoy creating videos, podcasts, or
-                engaging with live audiences</label>
-            <label><input type="radio" name="q6" value="c"> Interactive – I like developing apps, games, or software
-                solutions</label>
-            <label><input type="radio" name="q6" value="d"> One-on-one – I prefer working individually with clients or
-                students</label>
+            <h3 style="font-size: 1.2rem">6. What is your preferred mode of content delivery for your online business?</h3>
+            <label><input type="radio" name="q6" value="a" required> Written</label>
+            <label><input type="radio" name="q6" value="b"> Audio/Visual</label>
+            <label><input type="radio" name="q6" value="c"> Interactive</label>
+            <label><input type="radio" name="q6" value="d"> One-on-one</label>
         </div>
     </div>
     <div id="results" style="display:none;">
@@ -326,7 +308,7 @@
         </div>
     </div>
 
-    <button type="submit">Get Results</button>
+    <button class="button" type="submit">Get Results</button>
 </form>
 <script>
     const scores = {
