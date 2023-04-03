@@ -1,0 +1,597 @@
+<form id="quizForm">
+    <div class="question">
+        <div>
+            <h3>1. Which of the following best describes your primary skill set or interest?</h3>
+            <label><input type="radio" name="q1" value="a" required> Writing and content creation</label>
+            <label><input type="radio" name="q1" value="b"> Coding and technology</label>
+            <label><input type="radio" name="q1" value="c"> Photography and visual arts</label>
+            <label><input type="radio" name="q1" value="d"> Marketing and communication</label>
+            <label><input type="radio" name="q1" value="e"> Teaching and coaching</label>
+            <label><input type="radio" name="q1" value="f"> Organization and administration</label>
+        </div>
+        <div>
+            <h3>2. How important is passive income for your online business?</h3>
+            <label><input type="radio" name="q2" value="a" required> Very important – I want to make money while I
+                sleep</label>
+            <label><input type="radio" name="q2" value="b"> Somewhat important – I'd like a mix of passive and active
+                income sources</label>
+            <label><input type="radio" name="q2" value="c"> Not important – I'm fine with earning money only when I'm
+                actively working</label>
+        </div>
+        <div>
+            <h3>3. How much time are you willing to dedicate to your online business each week?</h3>
+            <label><input type="radio" name="q3" value="a" required> 0-10 hours – I want something
+                low-maintenance</label>
+            <label><input type="radio" name="q3" value="b"> 11-20 hours – I'm willing to invest some time, but not too
+                much</label>
+            <label><input type="radio" name="q3" value="c"> 21-40 hours – I'm committed to making this a full-time
+                endeavor</label>
+        </div>
+        <div>
+            <h3>4. How important is it for you to interact with clients or customers directly in your online business?
+            </h3>
+            <label><input type="radio" name="q4" value="a" required> Very important – I love working with people and
+                building
+                relationships</label>
+            <label><input type="radio" name="q4" value="b"> Somewhat important – I don't mind occasional interaction,
+                but not as the main focus</label>
+            <label><input type="radio" name="q4" value="c"> Not important – I'd rather work behind the scenes without
+                direct client/customer interaction</label>
+        </div>
+        <div>
+            <h3>5. How would you rate your level of expertise in your chosen skill set or interest? (from Question 1)
+            </h3>
+            <label><input type="radio" name="q5" value="a" required> Beginner – I'm new to this area and need to learn
+                more
+                before starting</label>
+            <label><input type="radio" name="q5" value="b"> Intermediate – I have some experience and knowledge, but
+                there's still room to grow</label>
+            <label><input type="radio" name="q5" value="c"> Expert – I'm confident in my skills and can start right
+                away</label>
+        </div>
+        <div>
+            <h3>6. What is your preferred mode of content delivery for your online business?</h3>
+            <label><input type="radio" name="q6" value="a" required> Written – I prefer writing articles, blog posts, or
+                e-books</label>
+            <label><input type="radio" name="q6" value="b"> Audio/Visual – I enjoy creating videos, podcasts, or
+                engaging with live audiences</label>
+            <label><input type="radio" name="q6" value="c"> Interactive – I like developing apps, games, or software
+                solutions</label>
+            <label><input type="radio" name="q6" value="d"> One-on-one – I prefer working individually with clients or
+                students</label>
+        </div>
+    </div>
+    <div id="results" style="display:none;">
+        <h2>Your ideal online business is:</h2>
+        <div class="result" data-result="blogging" style="display: none">
+            <p>Congratulations! Your quiz results indicate that <strong>starting a blogging business</strong> is the
+                perfect fit for you. You have a natural affinity for writing and content creation, which will help you
+                excel in the world of blogging.</p>
+            <p>As a blogger, you'll have the opportunity to share your knowledge, passion, and experiences with a
+                diverse audience while enjoying the flexibility of working from your favorite location. Your innate
+                writing skills, combined with your interest in teaching and coaching, will enable you to create
+                engaging and informative content that resonates with readers around the globe.</p>
+            <p>Whether you choose to focus on a specific niche or explore various topics, blogging allows you to
+                develop your unique voice and build a loyal following. As your online presence grows, you'll have
+                the chance to monetize your blog through affiliate marketing, sponsored content, or even by creating
+                your own digital products.</p>
+            <p>Get ready to embark on an exciting journey as a blogger! With dedication and perseverance, you'll
+                soon discover the boundless opportunities to connect with others, inspire change, and make a living
+                doing what you love. Happy blogging!</p>
+        </div>
+        <div class="result" data-result="appDevelopment" style="display: none">
+            <p>Congratulations! Based on your quiz answers, <strong>App Development is the perfect online business
+                    for you to start.</strong> With your strong interest in coding and technology, you have the
+                foundation to create innovative and useful applications that can improve people's lives and solve
+                real-world problems.</p>
+            <p>As an app developer, you have the potential to reach a vast audience with your creations, as
+                smartphones and other smart devices continue to dominate our daily lives. Whether you're developing
+                apps for Android, iOS, or both, you'll find a rapidly growing market that is hungry for fresh and
+                exciting ideas.</p>
+            <p>App Development also offers a mix of passive and active income sources, making it an ideal choice for
+                those seeking financial stability. By building and selling your apps through various app stores, you
+                can earn a passive income through downloads and in-app purchases. Additionally, you can offer your
+                expertise to clients as a freelance app developer, providing you with a more active income stream.
+            </p>
+            <p>Embrace your passion for coding and technology, and embark on a rewarding journey in the world of App
+                Development. By continuously honing your skills and staying updated with the latest industry trends,
+                you'll be well on your way to creating a successful online business and making a significant impact
+                in the digital landscape.</p>
+        </div>
+        <div class="result" data-result="stockPhotography" style="display: none">
+            <p>Congratulations! Based on your quiz answers, <strong>Stock Photography is the perfect online business for
+                    you to start.</strong> Your keen eye for detail and appreciation for visual arts make this an
+                excellent opportunity to showcase your talents while earning passive income.</p>
+            <p>As a stock photographer, you'll have the freedom to explore various subjects and themes, capturing the
+                beauty of the world around you. Your images can be licensed by individuals and businesses alike for use
+                in websites, advertisements, and print materials, providing you with a steady stream of income as your
+                portfolio grows.</p>
+            <p>Embrace your creative spirit and begin building a diverse portfolio of high-quality, unique images that
+                resonate with clients. Master the art of composition, lighting, and post-processing to create stunning
+                visuals that stand out in the ever-growing stock photography market. With dedication and persistence,
+                your photography skills will flourish, and your captivating images will be in high demand.</p>
+            <p>Get ready to embark on a fulfilling journey as a stock photographer, transforming your passion for
+                photography into a thriving online business. The world is your canvas, and the potential for success is
+                limited only by your imagination. Happy shooting!</p>
+        </div>
+        <div class="result" data-result="freelanceWriting" style="display: none">
+            <p>Congratulations! Your quiz results indicate that <strong>Freelance Writing is the perfect online business
+                    for you to start.</strong> As a gifted wordsmith with a passion for writing and content creation,
+                you have the ability to bring ideas to life through the power of language. The world of freelance
+                writing offers endless opportunities to channel your creativity, express your thoughts, and inspire
+                others.</p>
+            <p>Freelance writing allows you the freedom to work on diverse projects, from blog posts and articles to
+                e-books and marketing materials. This flexibility enables you to continuously learn and grow while
+                applying your talents in various industries. Whether you're crafting captivating stories, delivering
+                informative articles, or penning persuasive copy, your skills as a writer will always be in demand.</p>
+            <p>As a freelance writer, you can set your own schedule and choose projects that align with your interests
+                and values. This autonomy gives you the chance to create a fulfilling and balanced work-life, while also
+                building a solid income stream. With dedication and persistence, your freelance writing career will
+                flourish as you connect with clients and develop a professional reputation for excellence.</p>
+            <p>So, take a deep breath, and get ready to embark on an exciting journey as a freelance writer. Your unique
+                voice, creativity, and passion will undoubtedly make a lasting impact in the online business world. It's
+                time to unleash the power of your words and make your mark as a successful freelance writer!</p>
+        </div>
+        <div class="result" data-result="digitalMarketing" style="display: none">
+            <p>Congratulations! Your results indicate that <strong>Digital Marketing is the perfect online business for
+                    you to start</strong>. With your keen interest in marketing and communication, you have the
+                foundation to excel in this fast-paced and dynamic industry.</p>
+            <p>Digital marketing encompasses a wide range of strategies, including search engine optimization (SEO),
+                pay-per-click (PPC) advertising, content marketing, email marketing, and social media management. As a
+                digital marketer, you'll have the opportunity to help businesses grow their online presence and drive
+                sales by attracting and engaging their target audience.</p>
+            <p>Whether you choose to work with clients directly or establish your own niche website, your passion for
+                content creation and your understanding of how to effectively reach audiences will be invaluable assets.
+                As you develop your skills and stay up-to-date with the latest trends, you'll position yourself as an
+                expert in this highly sought-after field.</p>
+            <p>Embarking on a Digital Marketing journey offers endless possibilities for growth and innovation. As you
+                hone your skills and adapt to the ever-changing landscape, you'll not only find personal fulfillment but
+                also have the opportunity to make a lasting impact on businesses and their customers. So, get ready to
+                dive into the exciting world of Digital Marketing and turn your passion into a thriving online business!
+            </p>
+        </div>
+        <div class="result" data-result="seoConsulting" style="display: none">
+            <p>Congratulations! Your quiz results indicate that <strong>SEO Consulting is the perfect online business
+                    for you to start</strong>. As an SEO Consultant, you'll combine your strong analytical skills and
+                passion for improving website performance to help businesses reach their full online potential. With an
+                ever-growing digital landscape, your expertise in search engine optimization will be highly sought
+                after.</p>
+            <p>In this exciting field, you'll have the opportunity to work with a diverse range of clients, helping them
+                navigate the complex world of search engines and improve their online visibility. You'll use your
+                understanding of SEO best practices, keyword research, and on-page optimization to make data-driven
+                recommendations that drive organic traffic growth and increase conversion rates.</p>
+            <p>SEO Consulting also offers you the flexibility to manage your own schedule and the choice of working
+                independently or collaborating with digital marketing agencies. As you gain experience and build a
+                strong portfolio, you'll be able to expand your services and even consider offering related services
+                like content strategy and link building. The sky's the limit!</p>
+            <p>Ready to embark on your SEO Consulting journey? Begin by refining your SEO knowledge, staying up-to-date
+                with industry trends, and building your online presence. As you showcase your expertise and connect with
+                potential clients, you'll soon be on your way to a thriving online business that's both fulfilling and
+                rewarding. Good luck!</p>
+        </div>
+        <div class="result" data-result="socialMediaManagement" style="display: none">
+            <p>Congratulations! Your responses indicate that <strong><a
+                        href="/blog/how-to-social-media-management-business/">Social Media Management</a> is an ideal
+                    online business for you to start.</strong> As a social media manager, you'll be able to use your
+                strong communication skills and passion for connecting with others to help brands build a powerful
+                online presence.</p>
+            <p>Get ready to dive into the ever-evolving world of social media, where you'll develop and implement
+                engaging content strategies, manage multiple platforms, and analyze metrics to optimize performance.
+                Your knack for understanding audience preferences and staying up-to-date with the latest trends will
+                enable you to create compelling posts that resonate with followers and attract new ones.</p>
+            <p>As a social media manager, you can work with businesses of all sizes and industries, giving you the
+                flexibility to choose clients that align with your interests and values. Whether you're collaborating
+                with a small local business or an established global brand, your expertise in social media management
+                will drive online growth and strengthen customer relationships.</p>
+            <p>Embrace your new venture as a social media manager, and take pride in knowing that your skills are in
+                high demand. Get ready to transform your clients' online presence, one post at a time!</p>
+        </div>
+        <div class="result" data-result="affiliateMarketing" style="display: none">
+            <p>Congratulations! Based on your responses, <strong>Affiliate Marketing is the perfect online business for
+                    you to start.</strong> As an affiliate marketer, you'll leverage your writing and communication
+                skills to create compelling content that promotes products and services from other businesses. In
+                return, you'll earn a commission for each sale made through your unique referral links.</p>
+            <p>Affiliate marketing offers a fantastic opportunity to generate passive income, allowing you to earn money
+                even when you're not actively working. By creating valuable and engaging content, you'll attract a loyal
+                audience that trusts your recommendations. This will help you build a sustainable income stream over
+                time.</p>
+            <p>Whether you choose to start a blog, create a YouTube channel, or use social media platforms, there are
+                endless opportunities to promote products that resonate with your interests and passions. As you grow
+                your audience and establish your online presence, you'll have the flexibility to work from anywhere and
+                set your own schedule, giving you the freedom to design your ideal lifestyle.</p>
+            <p>Get ready to embark on an exciting journey as an affiliate marketer, and watch your online business
+                flourish. Best of luck on your new venture!</p>
+        </div>
+        <div class="result" data-result="onlineCourses" style="display: none">
+            <p>Congratulations! Your quiz results indicate that <strong>E-Learning & Online Course Creation is the
+                    perfect online business for you.</strong> With your passion for teaching and sharing knowledge, you
+                have the potential to make a significant impact in the lives of your future students.</p>
+            <p>As an E-Learning & Online Course Creator, you'll have the opportunity to turn your expertise and skills
+                into comprehensive, engaging learning experiences for a diverse range of learners. From developing video
+                lectures and interactive assignments to crafting well-structured curriculums, your work will empower
+                others to acquire new skills and advance their personal and professional growth.</p>
+            <p>One of the best aspects of this online business is its scalability. Once you've created your online
+                courses, you can leverage various marketing strategies and platforms to reach a global audience. You'll
+                be able to generate passive income while helping people around the world achieve their educational
+                goals.</p>
+            <p>As you embark on this exciting journey, remember to stay true to your passion for teaching and keep
+                refining your craft. With determination and hard work, you'll soon establish yourself as a reputable
+                E-Learning & Online Course Creator and make a lasting impact on the lives of your students. Embrace this
+                opportunity to turn your expertise into a thriving online business and inspire others to learn and grow.
+            </p>
+        </div>
+        <div class="result" data-result="onlineCoaching" style="display: none">
+            <p>Congratulations! Based on your quiz answers,<strong>Online Coaching is the perfect online business for
+                    you.</strong> As an Online Coach, you'll have the opportunity to share your expertise and passion
+                with others, helping them to grow, achieve their goals, and make meaningful progress in their lives.</p>
+            <p>As a natural teacher and mentor, you thrive in one-on-one interactions and have a strong desire to
+                connect with people on a deeper level. Online Coaching allows you to build strong relationships with
+                your clients, providing personalized guidance and support tailored to their unique needs and
+                aspirations.</p>
+            <p>With the rise of remote learning and communication tools, you'll be able to reach a global audience,
+                expanding your impact and transforming lives across borders. As an Online Coach, you'll have the
+                flexibility to design your own schedule, work from anywhere, and truly make a difference in the lives of
+                your clients.</p>
+            <p>Embrace your calling as an Online Coach and embark on a fulfilling journey that will not only bring you
+                personal and professional satisfaction but also empower others to reach their full potential. The world
+                is waiting for your expertise, enthusiasm, and dedication. Start your Online Coaching business today and
+                make a lasting impact on the lives of many!</p>
+        </div>
+        <div class="result" data-result="printOnDemand" style="display: none">
+            <p>Congratulations! Based on your responses, <strong>starting a Print-On-Demand business is a fantastic
+                    choice for you.</strong> With your unique blend of skills and interests, you'll be able to create
+                custom designs that resonate with your target audience. As a result, you'll be well-positioned to build
+                a thriving business in the ever-growing print-on-demand industry.</p>
+            <p>As a print-on-demand entrepreneur, you'll have the freedom to explore your creative side while also
+                capitalizing on your strong organizational abilities. This type of business allows you to focus on
+                designing captivating artwork or typography without the hassle of managing inventory, shipping, or
+                printing. By partnering with a reliable print-on-demand service, you can streamline your operation and
+                maximize your time for creativity and innovation.</p>
+            <p>Print-On-Demand provides a low-risk way to test your design ideas, making it an excellent choice for
+                entrepreneurs who want to minimize upfront investments. With a focus on quality and customer
+                satisfaction, you'll have the opportunity to build a loyal customer base and generate a steady income
+                stream. Don't forget to explore various marketing strategies to drive traffic to your store and increase
+                brand awareness.</p>
+            <p>It's time to unleash your creativity and build a successful Print-On-Demand business tailored to your
+                unique strengths and passions. Embrace the opportunity to turn your artistic vision into tangible
+                products that your customers will love, and watch as your online business flourishes.</p>
+        </div>
+        <div class="result" data-result="eCommerce" style="display: none">
+            <p>Congratulations! Based on your quiz results, <strong>E-Commerce or Dropshipping is the perfect online
+                    business for you to start.</strong> You have a keen eye for spotting profitable products, combined
+                with the necessary skills to build and manage an engaging online store. Your ability to adapt to market
+                trends and consumer needs makes you well-suited for the ever-evolving world of e-commerce.</p>
+            <p>As an e-commerce or dropshipping entrepreneur, you'll have the freedom to create your own brand and sell
+                products without the hassle of inventory management or shipping logistics. By partnering with reliable
+                suppliers, you can focus on promoting your online store and providing an exceptional customer
+                experience.</p>
+            <p>With the right marketing strategy, you'll attract a loyal customer base who will love your products and
+                keep coming back for more. You can leverage your digital marketing and social media management skills to
+                effectively reach your target audience and showcase your unique brand identity.</p>
+            <p>Embark on your e-commerce or dropshipping journey today and take control of your financial future. With
+                dedication and hard work, you'll build a thriving online business that brings you passive income and the
+                freedom to work from anywhere. The world of online shopping awaits you!</p>
+        </div>
+        <div class="result" data-result="virtualAssistant" style="display: none">
+            <p>Congratulations! Based on your quiz answers, starting an online business as a Virtual Assistant would be
+                a perfect fit for you. As a Virtual Assistant, you can showcase your excellent organizational and
+                administrative skills while helping entrepreneurs and business owners stay on top of their game.</p>
+            <p>As a Virtual Assistant, you'll have the opportunity to work with clients from various industries,
+                allowing you to gain experience in a diverse range of fields. You'll be managing schedules, responding
+                to emails, conducting research, and providing general support to ensure that your clients can focus on
+                growing their businesses.</p>
+            <p>One of the great advantages of being a Virtual Assistant is the flexibility it offers. You can choose to
+                work with clients from around the world and set your own schedule. Whether you want to work part-time or
+                full-time, you have the freedom to design your work-life balance according to your preferences.</p>
+            <p>As you grow your Virtual Assistant business, you can also expand your skills and offer additional
+                services based on your interests and expertise. This could include social media management, content
+                creation, or even project management. The possibilities are endless!</p>
+            <p>So, what are you waiting for? Embrace your passion for organization and administration, and embark on a
+                rewarding journey as a Virtual Assistant. With your dedication and hard work, you'll be able to build a
+                successful online business that brings value to your clients and satisfaction to your life.</p>
+        </div>
+        <div class="result" data-result="bookkeeping" style="display: none">
+            <p>Congratulations! Your quiz results indicate that starting a Bookkeeping business is the perfect fit for
+                you. With your strong organizational skills, attention to detail, and ability to work independently, you
+                have all the makings of a successful bookkeeper.</p>
+            <p>As a bookkeeper, you'll manage financial records for small businesses and entrepreneurs, ensuring their
+                books are accurate and up-to-date. Your tasks may include tracking expenses, managing invoices, and
+                reconciling bank statements. You'll be the go-to person for financial data, helping your clients make
+                informed decisions and stay compliant with tax regulations.</p>
+            <p>One of the great advantages of a bookkeeping business is the flexibility it offers. You can choose to
+                work from home, set your own hours, and scale your client base according to your desired workload. Plus,
+                with the growing demand for remote services, there's never been a better time to start your online
+                bookkeeping journey.</p>
+            <p>As you begin your new venture, consider investing in bookkeeping software and taking relevant courses to
+                hone your skills further. By staying current with industry best practices and regulations, you'll
+                provide top-notch services and build a reputation as a trusted bookkeeping professional. Get ready to
+                dive into the world of bookkeeping and start making a difference for small businesses everywhere!</p>
+        </div>
+        <div class="result" data-result="webDesign" style="display: none">
+            <p>Congratulations! Your quiz results suggest that Web Design is the perfect online business for you to
+                start. With your keen eye for design and strong technical skills, you're ready to make your mark on the
+                digital landscape by creating visually appealing and user-friendly websites for individuals and
+                businesses alike.</p>
+            <p>As a web designer, you'll have the opportunity to work with a diverse range of clients, each with unique
+                needs and preferences. This will challenge you to adapt and expand your design skills, ensuring that you
+                stay ahead of the curve in this ever-evolving industry. Plus, with the ongoing demand for high-quality
+                websites, your services will always be in high demand.</p>
+            <p>Whether you choose to work as a freelancer or establish your own web design agency, the flexibility of
+                this online business allows you to define your own work-life balance. By continuing to develop your
+                expertise in design principles, coding languages, and user experience, you'll be well on your way to
+                building a thriving and rewarding career in web design.</p>
+            <p>Now is the time to take the first step in your exciting journey as a web designer. Gather your creative
+                ideas, hone your technical skills, and start building your online portfolio to showcase your talents.
+                Success in web design is within your grasp – go ahead and seize the opportunity!</p>
+        </div>
+    </div>
+
+    <button type="submit">Get Results</button>
+</form>
+<script>
+    const scores = {
+        blogging: 0,
+        appDevelopment: 0,
+        stockPhotography: 0,
+        freelanceWriting: 0,
+        digitalMarketing: 0,
+        seoConsulting: 0,
+        socialMediaManagement: 0,
+        affiliateMarketing: 0,
+        onlineCourses: 0,
+        onlineTutoring: 0,
+        onlineCoaching: 0,
+        printOnDemand: 0,
+        eCommerce: 0,
+        virtualAssistant: 0,
+        bookkeeping: 0,
+        webDesign: 0
+    };
+    /* Create a function to calculate scores based on selected answers. */
+    function calculateScores(answerValues) {
+        const weightings = {
+            q1: {
+                a: {
+                    blogging: 6,
+                    freelanceWriting: 6,
+                    digitalMarketing: 4,
+                    seoConsulting: 4,
+                    onlineCourses: 2,
+                    onlineTutoring: 2,
+                    onlineCoaching: 2,
+                    bookkeeping: 2,
+                    webDesign: 2
+                },
+                b: {
+                    appDevelopment: 6,
+                    seoConsulting: 4,
+                    digitalMarketing: 4,
+                    webDesign: 4
+                },
+                c: {
+                    stockPhotography: 6
+                },
+                d: {
+                    digitalMarketing: 6,
+                    seoConsulting: 6,
+                    socialMediaManagement: 6,
+                    affiliateMarketing: 6
+                },
+                e: {
+                    onlineCourses: 6,
+                    onlineTutoring: 6,
+                    onlineCoaching: 6
+                },
+                f: {
+                    printOnDemand: 4,
+                    eCommerce: 4,
+                    virtualAssistant: 6,
+                    bookkeeping: 6,
+                    webDesign: 2
+                }
+            },
+            q2: {
+                a: {
+                    blogging: 2,
+                    stockPhotography: 2,
+                    affiliateMarketing: 2,
+                    onlineCourses: 2,
+                    printOnDemand: 2,
+                    eCommerce: 2
+                },
+                b: {
+                    freelanceWriting: 1,
+                    seoConsulting: 1,
+                    socialMediaManagement: 1,
+                    onlineTutoring: 1,
+                    onlineCoaching: 1,
+                    virtualAssistant: 1,
+                    bookkeeping: 1
+                },
+                c: {
+                    appDevelopment: 1,
+                    digitalMarketing: 1,
+                    webDesign: 1
+                }
+            },
+            q3: {
+                a: {
+                    blogging: 1,
+                    stockPhotography: 1,
+                    affiliateMarketing: 1,
+                    printOnDemand: 1,
+                    virtualAssistant: 1
+                },
+                b: {
+                    freelanceWriting: 1,
+                    digitalMarketing: 1,
+                    seoConsulting: 1,
+                    socialMediaManagement: 1,
+                    bookkeeping: 1,
+                    webDesign: 1
+                },
+                c: {
+                    appDevelopment: 2,
+                    onlineCourses: 2,
+                    onlineTutoring: 2,
+                    onlineCoaching: 2,
+                    eCommerce: 2
+                }
+            },
+            q4: {
+                a: {
+                    onlineTutoring: 1,
+                    onlineCoaching: 1,
+                    socialMediaManagement: 1,
+                    virtualAssistant: 1,
+                    bookkeeping: 1
+                },
+                b: {
+                    freelanceWriting: 1,
+                    digitalMarketing: 1,
+                    seoConsulting: 1,
+                    affiliateMarketing: 1,
+                    webDesign: 1
+                },
+                c: {
+                    blogging: 2,
+                    appDevelopment: 2,
+                    stockPhotography: 2,
+                    onlineCourses: 1,
+                    printOnDemand: 2,
+                    eCommerce: 2
+                }
+            },
+            q5: {
+                a: {
+                    blogging: 1,
+                    stockPhotography: 1,
+                    affiliateMarketing: 1,
+                    printOnDemand: 1,
+                    virtualAssistant: 1,
+                    bookkeeping: 1,
+                    webDesign: 1
+                },
+                b: {
+                    freelanceWriting: 1,
+                    digitalMarketing: 1,
+                    seoConsulting: 1,
+                    socialMediaManagement: 1,
+                    onlineTutoring: 1,
+                    onlineCoaching: 1,
+                    eCommerce: 1
+                },
+                c: {
+                    appDevelopment: 2,
+                    onlineCourses: 2
+                }
+            },
+            q6: {
+                a: {
+                    blogging: 4,
+                    freelanceWriting: 4,
+                    digitalMarketing: 2,
+                    seoConsulting: 2,
+                    affiliateMarketing: 2,
+                    onlineCourses: 2,
+                    onlineTutoring: 2,
+                    onlineCoaching: 2,
+                    bookkeeping: 2,
+                    webDesign: 2
+                },
+                b: {
+                    stockPhotography: 4,
+                    digitalMarketing: 2,
+                    seoConsulting: 2,
+                    socialMediaManagement: 4,
+                    affiliateMarketing: 2,
+                    onlineCourses: 2,
+                    onlineTutoring: 2,
+                    onlineCoaching: 2,
+                    printOnDemand: 2,
+                    eCommerce: 2
+                },
+                c: {
+                    appDevelopment: 4,
+                    webDesign: 4
+                },
+                d: {
+                    freelanceWriting: 2,
+                    onlineTutoring: 4,
+                    onlineCoaching: 4,
+                    virtualAssistant: 2,
+                    bookkeeping: 2
+                }
+            }
+        };
+
+        answerValues.forEach((answerValue) => {
+            const questionNumber = answerValue.slice(0, 2);
+            const answerChoice = answerValue.slice(2);
+            const weight = weightings[questionNumber][answerChoice];
+
+            for (const [category, value] of Object.entries(weight)) {
+                scores[category] += value;
+            }
+        });
+    }
+    /* Add an event listener to handle the quiz form submission. */
+    document.getElementById('quizForm').addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const radioButtons = document.querySelectorAll('input[type="radio"]:checked');
+        const answerValues = Array.from(radioButtons, radioButton => radioButton.name + radioButton.value);
+
+        calculateScores(answerValues);
+        displayResults();
+    });
+
+    /* Display the results of the quiz. */
+    function displayResults() {
+        const resultsDiv = document.getElementById("results");
+        const maxScoreCategory = Object.keys(scores).reduce((a, b) =>
+            scores[a] > scores[b] ? a : b
+        );
+
+        document
+            .querySelector(`.result[data-result="${maxScoreCategory}"]`)
+            .style.display = "block";
+
+        displayAllResults(resultsDiv);
+
+        document.querySelector(".question").style.display = "none";
+        resultsDiv.style.display = "block";
+
+         // Scroll to the top of the screen
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        // Add the confetti effect
+        confetti({
+            particleCount: 1000,
+            spread: 500,
+            origin: {
+                y: 0.3
+            }
+        });
+    }
+    /* Display all the results with their scores, sorted from highest to lowest. */
+    function displayAllResults(resultsDiv) {
+        const resultList = document.createElement("ul");
+        resultList.classList.add("all-results");
+
+        // Sort the scores from highest to lowest
+        const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
+
+        for (const [category, score] of sortedScores) {
+            const resultItem = document.createElement("li");
+            resultItem.textContent =
+                `${category.charAt(0).toUpperCase() + category.slice(1).replace(/([A-Z])/g, " $1")}: ${score}`;
+            resultList.appendChild(resultItem);
+        }
+
+        resultsDiv.appendChild(resultList);
+    }
+</script>
+<script src="
+https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js
+"></script>
