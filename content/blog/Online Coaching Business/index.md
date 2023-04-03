@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Online Coaching
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

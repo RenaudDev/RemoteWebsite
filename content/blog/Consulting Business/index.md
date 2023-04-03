@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Consulting
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

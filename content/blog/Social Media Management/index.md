@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Social Media Management
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

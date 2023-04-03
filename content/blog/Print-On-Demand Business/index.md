@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Print-On-Demand Store
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

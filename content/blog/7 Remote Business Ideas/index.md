@@ -17,7 +17,7 @@ tags:
 - Print-On-Demand Store
 - Content Creator
 - Online Course Creation
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

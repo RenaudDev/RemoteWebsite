@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Online Tutoring
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

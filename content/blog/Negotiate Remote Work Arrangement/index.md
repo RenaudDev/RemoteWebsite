@@ -10,7 +10,7 @@ feature: negotiation.webp
 categories:
 - Remote Work
 tags:
-- Guide
+- How To Start A Business
 - Negotiation
 - Communication
 - Work From Home

@@ -13,7 +13,7 @@ categories:
 - Freelancing & Online Business
 tags:
 - Bookkeeping
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 

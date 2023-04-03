@@ -12,7 +12,7 @@ categories:
 - Freelancing & Online Business
 tags:  
 - Virtual Assistant
-- Guide
+- How To Start A Business
 ---
 ## Introduction
 
