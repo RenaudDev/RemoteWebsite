@@ -8,7 +8,7 @@ date: 2023-03-17
 lastmod: 2023-03-17
 feature: "corinne-kutz-tMI2_-r5Nfo-unsplash.webp"
 categories:
-- Tools & Software
+- Tools And Softwares
 tags:
 - Technology
 ---

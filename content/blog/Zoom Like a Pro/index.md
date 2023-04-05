@@ -8,7 +8,7 @@ date: 2023-03-23
 lastmod: 2023-03-23
 feature: zoom.webp
 categories:
-- Home Office Setup & Ergonomics
+- Home Office Setup And Ergonomics
 tags:
 - Productivity
 - Personal Branding

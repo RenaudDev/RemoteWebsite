@@ -6,7 +6,7 @@
   </div>
   {{- range .Paginator.Pages }}
   <article class="card">
-    {{ partialCached "entry/header" . .Page }}
+    {{ partialCached "entry/header" . (dict) }}
     <section class="card-content">
       {{ .Summary | truncate 350 "..." }}
     </section>

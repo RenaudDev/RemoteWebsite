@@ -8,7 +8,7 @@ date: 2023-03-17
 lastmod: 2023-03-17
 feature: ideas.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags: 
 - Virtual Assistant
 - Dropshipping

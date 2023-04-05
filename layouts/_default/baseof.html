@@ -99,6 +99,18 @@
   
   {{ if eq .Params.layout "tool" }}
     {{ partial "tool.html" . }}
+  {{ end }}
+
+  {{ if eq .Kind "taxonomy" }}
+  <main id="taxonomy-main" role="main">
+    {{ block "taxonomy-main" . }}{{ end }}
+  </main>
+
+{{ else }}
+  {{ if .IsHome }}
+  <main id="taxonomy-main" role="main">
+    {{ block "home-main" . }}{{ end }}
+  </main>
   {{ else }}
     <main id="site-main" role="main">
       {{ block "main" . }}{{ end }}
@@ -107,6 +119,7 @@
       {{ block "pagination" . }}{{ end }}
     </main>
   {{ end }}
+{{ end }}
 
   {{ block "footer" . }}{{ partialCached "site/footer.html" . }}{{ end }}
 

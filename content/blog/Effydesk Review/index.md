@@ -9,7 +9,7 @@ series: Standing Desks
 lastmod: 2023-03-17
 feature: "thestandingdesk.webp"
 categories:
-- Home Office Setup & Ergonomics
+- Home Office Setup And Ergonomics
 tags:
 - Standing Desk
 - Health

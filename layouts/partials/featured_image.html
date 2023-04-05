@@ -1,0 +1,14 @@
+{{- if .featuredImage }}
+  {{- $thumbnail := .featuredImage }}
+  {{- if not (in .featuredImage "http") }}
+    {{- with .context.Resources.GetMatch .featuredImage }}
+      {{- $image := . }}
+      {{- $thumbnail = ($image.Fill "1280x900").RelPermalink }}
+    {{- else }}
+      {{- $thumbnail = .featuredImage }}
+    {{- end }}
+  {{- end }}
+  <figure>
+    <img src="{{ $thumbnail }}" alt="{{ .context.Title }}" width="640px" height="200px">
+  </figure>
+{{- end }}

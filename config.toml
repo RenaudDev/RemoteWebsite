@@ -41,51 +41,10 @@ enableEmoji = true
 
 [[menu.main]]
   identifier = "categories"
-  name = "Categories ▼ "
+  name = "Categories"
   url = "/categories/"
   weight = 25
 
-  [[menu.main]]
-    parent = "categories"
-    name = "Freelancing & Online Business"
-    url = "/categories/freelancing-online-business/"
-    weight = 1
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Home Office Setup & Ergonomics"
-    url = "/categories/home-office-setup-ergonomics/"
-    weight = 2
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Digital Nomad Lifestyle"
-    url = "/categories/digital-nomad-lifestyle/"
-    weight = 3
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Productivity & Time Management"
-    url = "/categories/productivity-time-management/"
-    weight = 4
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Remote Work"
-    url = "/categories/remote-work/"
-    weight = 5
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Tools & Software"
-    url = "/categories/tools-software/"
-    weight = 6
-
-  [[menu.main]]
-    parent = "categories"
-    name = "Work-Life Balance"
-    url = "/categories/work-life-balance/"
-    weight = 7
 
 [[menu.main]]
   identifier = "tools"

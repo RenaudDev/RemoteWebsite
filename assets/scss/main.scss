@@ -217,6 +217,7 @@ input{
   #site-main {
     grid-template-columns: minmax(0.45rem,1fr)minmax(auto,70ch)minmax(0.45rem,1fr);
   }
+  
   .card-banner {
     margin-left: 0;
     height:50px;
@@ -271,6 +272,15 @@ form label span {
 @media (min-width: 768px) {
   form label {
     width: auto;
+  }
+}
+/* Media query for larger screens */
+@media (max-width: 768px) {
+  .taxonomy-main .card-title {
+    font-size: 1rem;
+  }
+  .taxonomy-main .card-content {
+    font-size: 0.8rem;
   }
 }
 

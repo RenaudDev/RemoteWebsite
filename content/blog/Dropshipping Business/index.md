@@ -9,7 +9,7 @@ date: 2023-03-19
 lastmod: 2023-03-19
 feature: dropshipping.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:  
 - Dropshipping
 - How To Start A Business

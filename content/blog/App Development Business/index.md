@@ -9,7 +9,7 @@ date: 2023-04-03
 lastmod: 2023-04-03
 feature: app.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:  
 - App Development
 - How To Start A Business

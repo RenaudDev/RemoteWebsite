@@ -8,7 +8,7 @@ date: 2023-03-22
 lastmod: 2023-03-22
 feature: profit.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:
 - Content Creator
 - Online Course Creation

@@ -8,7 +8,7 @@ date: 2023-03-18
 lastmod: 2023-03-18
 feature: "time.webp"
 categories:
-- Productivity & Time Management
+- Productivity
 tags:
 - Eisenhower Matrix
 - Prioritization

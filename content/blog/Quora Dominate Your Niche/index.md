@@ -8,7 +8,7 @@ date: 2023-03-21
 lastmod: 2023-03-21
 feature: quora.webp
 categories:
-- Tools & Software
+- Tools And Softwares
 tags:
 - Quora
 - Personal Branding

@@ -9,7 +9,7 @@ lastmod: 2023-03-31
 series: Business Guides
 feature: affiliatemarketing.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:
 - Affiliate Marketing
 ---

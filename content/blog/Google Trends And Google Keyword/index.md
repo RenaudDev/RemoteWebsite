@@ -8,7 +8,7 @@ date: 2023-03-20
 lastmod: 2023-03-20
 feature: google.webp
 categories:
-- Tools & Software
+- Tools And Softwares
 tags:  
 - Google Trends
 - Google Keyword Planner

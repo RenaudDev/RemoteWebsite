@@ -1,11 +1,59 @@
-{{- define "main" }}
-<article class="l-container_content card">
-  <h1 class="card-title">{{ .Page.Title }}</h1>
-  <ul>
-    {{- $term := .Data.Singular }}
-    {{- range .Data.Terms.ByCount }}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <sup>{{ .Count }}</sup></li>
-    {{- end }}
-  </ul>
-</article>
+{{- define "taxonomy-main" }}
+<section style="padding: 45px 0.45rem 0px 0.45rem;max-width: 65rem; margin: 0 auto;">
+<h1 class="card-title">
+  <span style="font-size: 3.5rem;">Remote Unbound</span> <br> Our Topics to Boost Your Success
+</h1>
+<p>
+  Welcome to our comprehensive resource hub for remote work and work from home enthusiasts! We're dedicated to providing you with the latest tips, tools, and strategies to help you excel in the ever-evolving world of remote work. Dive into our diverse categories, ranging from productivity hacks and communication techniques to home office setup ideas and work-life balance tips. Whether you're a seasoned remote worker, a freelancer, or just starting your work from home journey, our expertly curated content is designed to empower you to achieve success and make the most of your remote work lifestyle.
+</p>
+</section>
+<section style="padding: 0 0.45rem ;max-width: 65rem; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1rem;" class="taxonomy-main">
+  {{ if eq .Section "categories" }}
+    {{ range .Site.Taxonomies.categories.ByCount }}
+      {{ $categoryPage := .Page }}
+      {{ $categoryContent := site.GetPage (printf "/categories/%s" $categoryPage.Title | urlize) }}
+      
+      <article class="card">
+        {{ with $categoryContent }}
+        <header class="card-header">
+          {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
+          <div class="card-meta">
+            <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
+            {{- if .Params.categories }}
+            <ul class="taxonomy-list_categories">
+            {{- range (.GetTerms "categories") }}
+              <li>{{ .LinkTitle }}</a></li>
+            {{- end }}
+            </ul>
+            {{- end }}
+          </div>
+          {{ with .Params.image }}
+          <img class="featured-image" style="margin-bottom: 20px; height: auto;  max-height:300px; width: 100%; object-fit: cover;" src="{{ . }}" alt="{{ $.Title }}" />
+        {{ end }}
+          <h2 class="card-title" style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+        </header>
+          <section class="card-content">
+            {{- with .Description }}
+              {{ . | truncate 350 "..." }}
+            {{- end }}
+            <br>
+            <a href="{{ .RelPermalink }}" style="display: inline-block" class="button">Read more</a>
+          </section>
+        {{ end }}
+      </article>
+    {{ end }}
+  {{ else }}
+    {{ range .Pages }}
+      <article class="card">
+        {{ partialCached "entry/header" . . }}
+        <section class="card-content">
+          {{ .Summary | truncate 350 "..." }}
+        </section>
+      </article>
+    {{ end }}
+  {{ end }}
+</section>
 {{- end }}
+
+
