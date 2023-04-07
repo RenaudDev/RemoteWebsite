@@ -1,0 +1,29 @@
+{{- if .Params.feature }}
+  {{- $thumbnail := .Params.feature }}
+  {{- if not (in .Params.feature "http") }}
+    {{- with .Resources.GetMatch .Params.feature }}
+      {{- $image := . }}
+      {{- $thumbnail = ($image.Fill "600x600").RelPermalink }}
+    {{- else }}
+      {{- $thumbnail = .Params.feature }}
+    {{- end }}
+  {{- end }}
+  <a href="{{ .RelPermalink }}">
+  <div class="smallcard">
+    <div>
+      <img style="min-width: 200px;" class="smallcard-img" src="{{ $thumbnail }}" alt="{{ .Title }}" >
+    </div>
+    <div class="smallcard-content">
+      <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ $summary := .Summary | replaceRE "^Introduction" "" | htmlUnescape }}
+     
+      <p>
+        {{ $summary | truncate 350 "..." }}</p>
+      <div style="display:flex; justify-content: end;margin-right:20px;">
+      <a href="{{ .RelPermalink }}" class="button">Read more</a>
+      </div>
+    </div>
+  </div>
+</a>
+  
+{{- end }}

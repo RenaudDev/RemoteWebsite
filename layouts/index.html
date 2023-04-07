@@ -5,13 +5,33 @@
 </h1>
 <p>
   Welcome to RemoteUnbound, your go-to Remote Work Magazine designed to guide and inspire you on your journey towards a successful and fulfilling remote work lifestyle. Our expertly curated articles, practical tips, and insightful stories cover a wide range of topics, including freelancing, productivity, work-life balance, home office setups, and digital nomad adventures.</p><p>Whether you're a seasoned telecommuter or just starting to explore the world of remote work, RemoteUnbound is here to help you navigate the challenges and embrace the opportunities that come with working from anywhere. Join our growing community of remote work enthusiasts and let us empower you to thrive in the boundless world of remote work</p>
+<h2 style="font-size: 2.5rem; margin-top:3rem;">Our Latest Articles</h2>
 </section>
-<section style="padding: 0 0.45rem 5rem 0.45rem ;max-width: 65rem; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1rem;" class="taxonomy-main">
+<section style="padding: 0 0.45rem 2rem 0.45rem ;max-width: 65rem; margin: 0 auto; display: grid; grid-template-columns: repeat(1fr); grid-gap: 1rem;">
+  {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
+  {{ range $paginator.Pages }}
+  <article class="card">
+    {{ partialCached "entry/smallcard" . .Page }}
+
+    {{- if .Params.tags }}
+    	{{ $tags := sort .Params.tags }}
+    	{{ $variant := printf "%x" $tags }}
+    	{{ partialCached "entry/footer.html" . $variant }}
+    {{- end }}
+  </article>
+  {{- end }}
+</section>
+<section style="padding: 0px 0.45rem 0px 0.45rem;max-width: 65rem; margin: 0 auto;">
+  <h2 style="font-size: 2.5rem; margin-top:3rem;">
+  Explore Our Categories
+</h2>
+</section>
+<section class="category-grid">
   {{ range .Site.Taxonomies.categories.ByCount }}
     {{ $categoryPage := .Page }}
     {{ $categoryContent := site.GetPage (printf "/categories/%s" $categoryPage.Title | urlize) }}
     
-    <article class="card">
+    <article class="card category">
       {{ with $categoryContent }}
       <header class="card-header">
         {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
@@ -38,8 +58,12 @@
           <br>
           <a href="{{ .RelPermalink }}" style="display: inline-block" class="button">Read more</a>
         </section>
-      {{ end }} <!-- This is the missing end tag -->
+      {{ end }} 
     </article>
   {{ end }}
 </section>
+{{- end }}
+
+{{- define "pagination" }}
+  {{ partial "pagination" . }}
 {{- end }}

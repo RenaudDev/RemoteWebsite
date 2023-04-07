@@ -4,13 +4,13 @@
     <h1 class="card-title">{{ .Data.Singular | humanize }}: {{ .Title }}</h1>
     {{ .Content }}
   </div>
-  {{- range .Paginator.Pages }}
+  {{- range .Data.Pages }}
   <article class="card">
     {{ partialCached "entry/header" . (dict) }}
     <section class="card-content">
       {{ .Summary | truncate 350 "..." }}
     </section>
-    {{ partialCached "entry/footer" . .Page }}
+    {{ partialCached "entry/footer" . . }}
   </article>
   {{- end }}
 </section>

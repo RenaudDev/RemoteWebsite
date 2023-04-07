@@ -1,22 +1,27 @@
-{{- define "main" }}
-<article class="l-container_content card">
-  <h1 class="card-title">{{ .Page.Title }}</h1>
-  <ul>
-  {{- $term := .Data.Singular }}
-  {{- range .Data.Terms.ByCount }}
-  {{- if gt .Count 1 }}
-  <li>
-    <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-    <ul>
-    {{- range .Pages }}
-      <li>
-        <a href="{{ .Page.RelPermalink}}">{{ .Page.Title }}</a>
-      </li>
-    {{- end }}
-    </ul>
-  </li>
+{{- define "taxonomy-main" }}
+
+<section style="padding: 3rem 0.45rem 1rem 0.45rem;max-width: 65rem; margin: 0 auto;">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+    {{ .Description }}
   {{- end }}
+</section>
+<section style="padding: 0 0.45rem 3rem 0.45rem ;max-width: 65rem; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1rem;" class="taxonomy-main">
+  
+  {{- range .Data.Terms.Alphabetical }}
+  <article class="card">
+    <header class="card-header">
+
+      <h1 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h1>
+    </header>
+    <section class="card-content">
+      {{ with .Page.Description }}
+        {{ . | truncate 350 "..." }}
+      {{- end }}
+    </section>
+  </article>
+  
   {{- end }}
-  </ul>
-</article>
+</section>
 {{- end }}
+

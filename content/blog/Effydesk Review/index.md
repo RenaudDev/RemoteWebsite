@@ -5,7 +5,6 @@ slug: effydesk-business-standing-desk-review
 authors:
   - Renaud Gagne
 date: 2023-03-17
-series: Standing Desks
 lastmod: 2023-03-17
 feature: "thestandingdesk.webp"
 categories:
