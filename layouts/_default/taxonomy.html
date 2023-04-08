@@ -16,21 +16,23 @@
       <article class="card">
         {{ with $categoryContent }}
         <header class="card-header">
-          {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
+          {{ with .Params.Series }}<a href="/series/{{ . | urlize }}"  title="View posts in the {{ .Params.Series }} series" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
           <div class="card-meta">
             <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
             {{- if .Params.categories }}
+            <nav>
             <ul class="taxonomy-list_categories">
             {{- range (.GetTerms "categories") }}
-              <li>{{ .LinkTitle }}</a></li>
+              <li>{{ .LinkTitle }}</li>
             {{- end }}
             </ul>
+            </nav>
             {{- end }}
           </div>
           {{ with .Params.image }}
           <img class="featured-image" style="margin-bottom: 20px; height: auto;  max-height:300px; width: 100%; object-fit: cover;" src="{{ . }}" alt="{{ $.Title }}" />
         {{ end }}
-          <h2 class="card-title" style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <h2 class="card-title" style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}" title="View posts in the {{ .Title }} category or tag">{{ .Title }}</a></h2>
 
         </header>
           <section class="card-content">
@@ -38,7 +40,7 @@
               {{ . | truncate 350 "..." }}
             {{- end }}
             <br>
-            <a href="{{ .RelPermalink }}" style="display: inline-block" class="button">Read more</a>
+            <a href="{{ .RelPermalink }}" title="View posts in the {{ .LinkTitle }} category" style="display: inline-block" class="button">Read more</a>
           </section>
         {{ end }}
       </article>

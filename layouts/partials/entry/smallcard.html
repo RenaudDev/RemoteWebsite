@@ -1,13 +1,15 @@
 <header class="">
-  {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
+  {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" title="See more articles in this series" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
   <div class="card-meta">
     <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
     {{- if .Params.categories }}
+    <nav>
     <ul class="taxonomy-list_categories">
     {{- range (.GetTerms "categories") }}
-      <li><a href="{{ .Permalink }}" class="taxonomy-item">{{ .LinkTitle }}</a></li>
+      <li><a href="{{ .Permalink }}" title="View posts in the {{ .LinkTitle }} category or tag" class="taxonomy-item">{{ .LinkTitle }}</a></li>
     {{- end }}
     </ul>
+  </nav>
     {{- end }}
   </div>
   {{ partialCached "entry/smallfeature" . .Page }}
