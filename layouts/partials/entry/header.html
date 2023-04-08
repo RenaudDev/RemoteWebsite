@@ -10,7 +10,7 @@
     </ul>
     {{- end }}
   </div>
-  <h1 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+  <h2 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   {{ partial "entry/authors" . }}
   {{ partialCached "entry/feature" . .Page }}
 </header>

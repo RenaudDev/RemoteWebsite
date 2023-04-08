@@ -1,7 +1,7 @@
 {{- define "main" }}
 <section class="l-container_content">
   <div class="card" data-taxonomy="{{ print .Page.Section "-" .Page.Title | urlize }}">
-    <h1 class="card-title">{{ .Data.Singular | humanize }}: {{ .Title }}</h1>
+    <h1 class="card-title">{{ .Title }}</h1>
     {{ .Content }}
   </div>
   {{- range .Paginator.Pages }}
