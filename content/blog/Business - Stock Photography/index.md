@@ -9,7 +9,7 @@ date: 2023-04-08
 lastmod: 2023-04-08
 feature: stockphotography.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:  
 - Stock Photography
 - How To Start A Business
