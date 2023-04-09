@@ -96,16 +96,16 @@
   {{ block "header" . }}
     {{ partial "site/header.html" . }}
   {{ end }}
-  
-  {{ if eq .Params.layout "tool" }}
-    {{ partial "tool.html" . }}
-  {{ end }}
 
-  {{ if eq .Kind "taxonomy" }}
+
+  {{ if eq .Params.layout "tool" }}
+  <main id="tool-main" role="main">
+    {{ block "tool-main" . }}{{ end }}
+  </main>
+{{ else if eq .Kind "taxonomy" }}
   <main id="taxonomy-main" role="main">
     {{ block "taxonomy-main" . }}{{ end }}
   </main>
-
 {{ else }}
 
   {{ if .IsHome }}

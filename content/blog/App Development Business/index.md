@@ -2,7 +2,7 @@
 title: How to Start an App Development Business Step By Step
 description: Discover the steps to launch your own successful App Development business, from planning and setup to managing and scaling your services.
 slug: how-to-App Development-business-guide
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-03

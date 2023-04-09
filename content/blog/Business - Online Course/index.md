@@ -6,7 +6,7 @@ authors:
   - Renaud Gagne
 date: 2023-03-31
 lastmod: 2023-03-31
-series: Business Guides
+
 feature: teacher.webp
 categories:
 - Freelancing And Online Business

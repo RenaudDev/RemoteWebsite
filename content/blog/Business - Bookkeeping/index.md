@@ -3,7 +3,7 @@
 title: How to Start a Bookkeeping Business From Home
 description: Discover the steps to launch your own successful Bookkeeping business from home, from planning and setup to managing and scaling your services.
 slug: how-to-start-Bookkeeping-business-from-home
-series: Business Guides
+
 authors: 
 - Renaud Gagne
 date: 2023-04-01

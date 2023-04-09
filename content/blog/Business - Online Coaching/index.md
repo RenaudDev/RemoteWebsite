@@ -2,7 +2,7 @@
 title: How to Start a Online Coaching Business Step By Step
 description: Discover the steps to launch your own successful Online Coaching business, from planning and setup to managing and scaling your services.
 slug: how-to-Online-coaching-business-guide
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-03

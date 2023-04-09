@@ -2,7 +2,7 @@
 title: How to Start a Consulting Business On The Side Or Full Time
 description: Discover the steps to launch your own successful consulting business, from planning and setup to managing and scaling your services.
 slug: how-to-online-consulting-business
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-03

@@ -2,7 +2,7 @@
 title: How to Start a Digital Marketing Business Step By Step
 description: Discover the steps to launch your own successful Digital Marketing business, from planning and setup to managing and scaling your services.
 slug: how-to-start-digital-arketing-business-guide
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-05

@@ -28,18 +28,6 @@ enableEmoji = true
   weight = 10
 
 [[menu.main]]
-  identifier = "authors"
-  name = "Authors"
-  url = "/authors/"
-  weight = 15
-
-[[menu.main]]
-  identifier = "series"
-  name = "Series"
-  url = "/series/"
-  weight = 15
-
-[[menu.main]]
   identifier = "categories"
   name = "Categories"
   url = "/categories/"
@@ -89,7 +77,6 @@ enableEmoji = true
 
 [taxonomies]
   author = "authors"
-  series = "series"
   category = "categories"
   tag = "tags"
 

@@ -2,7 +2,7 @@
 title: How to Start a Online Tutoring Business Step By Step
 description: Discover the steps to launch your own successful online tutoring business, from planning and setup to managing and scaling your services.
 slug: start-online-tutoring-business-guide
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-03-20

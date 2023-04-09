@@ -2,7 +2,7 @@
 title: How to Start a Copywriting Business Step By Step
 description: Discover the steps to launch your own successful copywriting business, from planning and setup to managing and scaling your services.
 slug: how-to-start-copywriting-business
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-04

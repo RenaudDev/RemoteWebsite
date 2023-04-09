@@ -2,7 +2,7 @@
 title: How to Start a Social Media Management Business Step By Step
 description: Discover the steps to launch your own successful Social Media Management business, from planning and setup to managing and scaling your services.
 slug: how-to-social-media-management-business
-series: Business Guides
+
 authors:
   - Renaud Gagne
 date: 2023-04-01
