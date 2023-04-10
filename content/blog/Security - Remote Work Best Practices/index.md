@@ -8,7 +8,7 @@ date: 2023-03-28
 lastmod: 2023-03-28
 feature: security.webp
 categories:
-- Remote Work
+- Security
 tags:
 - Remote Work Tips
 - Cyber Security
