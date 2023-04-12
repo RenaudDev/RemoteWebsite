@@ -3,13 +3,13 @@
   {{- if not (in .Params.feature "http") }}
     {{- with .Resources.GetMatch .Params.feature }}
       {{- $image := . }}
-      {{- $thumbnail = ($image.Fill "700x700").RelPermalink }}
+      {{- $thumbnail = ($image.Fill "350x350").RelPermalink }}
     {{- else }}
       {{- $thumbnail = .Params.feature }}
     {{- end }}
   {{- end }}
 
-  <div class="smallcard">
+  <div class="smallcard" style="margin-top: 20px">
     <div>
       <img loading="lazy" height="600px" width="600px" class="smallcard-img" src="{{ $thumbnail }}" alt="{{ .Title }}" >
     </div>
