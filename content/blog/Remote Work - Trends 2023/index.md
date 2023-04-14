@@ -78,7 +78,7 @@ As we dive into the remote work trends of 2023, it's impossible to ignore the cr
 
 For remote workers, virtual workspaces can help alleviate the challenges of working in isolation. By simulating the feel of an office environment, employees can stay connected with their colleagues and maintain a sense of camaraderie. A well-designed virtual workspace fosters creativity and collaboration, driving innovation and growth for the entire organization.
 
-Working in real time with colleagues using tools like Mira.
+Working in real time with colleagues using tools like [Miro](https://miro.com/).
 
 Employers can leverage the power of virtual workspaces to build and manage global teams effectively. With the right tools, it's possible to create a cohesive and productive remote work environment that transcends borders, time zones, and cultural barriers.
 
