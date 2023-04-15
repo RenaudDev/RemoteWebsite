@@ -1,7 +1,7 @@
 baseURL = "https://www.remoteunbound.com"
 title = "RemoteUnbound"
 copyright = "Copyright © 2023"
-paginate = 7 
+paginate = 12 
 languageCode = "en"
 DefaultContentLanguage = "en"
 theme = "calligraphy"

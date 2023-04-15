@@ -58,6 +58,7 @@ ${{ $key }}: {{ $value }};
 @import "components/__components-dir";
 @import "layouts";
 @import "shame";
+@import "home";
 
 a {
   text-decoration: none;
@@ -101,10 +102,10 @@ a {
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
-  color: var(--color-accent);;
+  color: var(--color-accent);
 }
 .related-posts li a:hover {
-  color: var(--color-accent);;
+  color: var(--color-accent);
 }
 
 .related-posts li a:hover {
@@ -290,40 +291,7 @@ form label span {
   grid-template-columns: repeat(2, 1fr); 
   grid-gap: 1rem;
 }
-@media (max-width: 768px) {
-  .smallcard {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: start;
-  }
-  .smallcard-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  .smallcard-content {
-    margin-left: 0px !important;
-  }
-  .category-grid {
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 1rem;
-  }
-}
-/* Small Cards for Homepage */
-.smallcard {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-}
-.smallcard-img img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-.smallcard-content {
-  margin-left: 30px;
-}
+
 
 /*Blockquote*/
 blockquote {
