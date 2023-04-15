@@ -5,7 +5,7 @@
     <span style="font-size: 3.5rem; line-height: 100%;">Remote Unbound</span> <br> The Magazine For Remote Workers
   </h1>
 </section>
-<section class="container">
+<section class="xcontainer">
   
   {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
   {{ range $paginator.Pages }}
