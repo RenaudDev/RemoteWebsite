@@ -73,16 +73,21 @@
   </article>
   {{- end }}
 </section>
+<section style="padding: 45px 0.45rem 0px 0.45rem;max-width: 65rem; margin: 0 auto;">
+  <h2>
+    Browser By Categories
+  </h2>
+</section>
 <section class="category-grid">
   {{ range .Site.Taxonomies.categories.ByCount }}
     {{ $categoryPage := .Page }}
     {{ $categoryContent := site.GetPage (printf "/categories/%s" $categoryPage.Title | urlize) }}
-    
-    <article class="card category">
+
+    <article class="smallcard category">
       {{ with $categoryContent }}
-      <header class="card-header">
+      <header class="smallcard-header">
         {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" title="Read more articles in this series" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
-        <div class="card-meta">
+        <div class="smallcard-meta">
           <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
           {{- if .Params.categories }}
           <nav>
@@ -97,10 +102,12 @@
         {{ with .Params.image }}
         <img class="featured-image" loading="lazy" style="margin-bottom: 20px; height: 500px; object-fit: cover;" height="500px" width="800px" src="{{ . }}" alt="{{ $.Title }}" />
       {{ end }}
-        <h3 class="card-title" style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        
 
       </header>
-        <section class="card-content">
+
+        <section class="card-content" style="padding: 0 1rem 1rem 1rem;">
+          <h3 class="card-title" style="margin-bottom: 10px;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           {{- with .Description }}
             {{ . | truncate 350 "..." }}
           {{- end }}
