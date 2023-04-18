@@ -9,7 +9,7 @@ date: 2023-04-18
 lastmod: 2023-04-18
 feature: design.webp
 categories:
-- Freelancing & Online Business
+- Freelancing And Online Business
 tags:  
 - Web Design
 - How To Start A Business
