@@ -10,9 +10,7 @@
   {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
   {{ range $paginator.Pages }}
   <article class="smallcard">
-    <header>
-      {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" title="See more articles in this series" class="smallcard-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
-      
+    <header>      
       {{- if .Params.feature }}
       {{- $thumbnail := .Params.feature }}
       {{- if not (in .Params.feature "http") }}
@@ -86,7 +84,6 @@
     <article class="smallcard category">
       {{ with $categoryContent }}
       <header class="smallcard-header">
-        {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" title="Read more articles in this series" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
         <div class="smallcard-meta">
           <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
           {{- if .Params.categories }}

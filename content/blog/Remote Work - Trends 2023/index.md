@@ -1,9 +1,7 @@
 ---
-
 title: 'Top Remote Work Trends for 2023: AI, Flexibility & Global Teams'
 description: Discover the key remote work trends of 2023, including AI-powered tools, flexible work arrangements, global workforces, and maintaining work-life balance.
 slug: remote-work-trends
-
 authors: 
 - Renaud Gagne
 date: 2023-04-13

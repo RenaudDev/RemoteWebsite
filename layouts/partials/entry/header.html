@@ -1,5 +1,4 @@
 <header class="card-header">
-  {{ with .Params.Series }}<a href="/series/{{ . | urlize }}" class="card-banner" data-taxonomy="{{ print "series-" . | urlize }}">{{ . }}</a>{{ end }}
   <div class="card-meta">
     <span>{{ with .PublishDate }}<time datetime="{{ . }}">{{ dateFormat "Jan 2, 2006" . }}</time>{{ end }}</span>
     {{- if .Params.categories }}
