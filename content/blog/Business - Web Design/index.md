@@ -105,7 +105,7 @@ Web design is a fast-evolving field, and it's crucial to stay current with the l
 By staying updated on the latest developments in the industry and constantly refining your skill set, you'll be well-equipped to meet the ever-changing requirements of your clients and keep your web design business thriving.
 
 ## Setting Up Your Web Design Business
-{{< responsive-image src="routine.webp" alt="Setting Up Your Web Design Business" >}}
+{{< responsive-image src="business.webp" alt="Setting Up Your Web Design Business" >}}
 
 Now that you have identified your niche and honed your web design skills, it's time to set up your web design business. This process involves selecting a business name, establishing a legal and business infrastructure, creating a professional website and portfolio, and choosing the right tools and resources for efficient workflow.
 
